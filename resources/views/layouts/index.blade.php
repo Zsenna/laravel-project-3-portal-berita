@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="css/style.css">
     <script defer="" referrerpolicy="origin" src="/cdn-cgi/zaraz/s.js?z=JTdCJTIyZXhlY3V0ZWQlMjIlM0ElNUIlNUQlMkMlMjJ0JTIyJTNBJTIyV2Vic2l0ZSUyMG1lbnUlMjAwMiUyMiUyQyUyMnglMjIlM0EwLjE0ODA0ODQwNDIxNzExMjYzJTJDJTIydyUyMiUzQTE5MjAlMkMlMjJoJTIyJTNBMTA4MCUyQyUyMmolMjIlM0E5MTElMkMlMjJlJTIyJTNBMTkyMCUyQyUyMmwlMjIlM0ElMjJodHRwcyUzQSUyRiUyRnByZXZpZXcuY29sb3JsaWIuY29tJTJGdGhlbWUlMkZib290c3RyYXAlMkZ3ZWJzaXRlLW1lbnUtMTIlMkYlMjIlMkMlMjJyJTIyJTNBJTIyJTIyJTJDJTIyayUyMiUzQTI0JTJDJTIybiUyMiUzQSUyMlVURi04JTIyJTJDJTIybyUyMiUzQS00MjAlMkMlMjJxJTIyJTNBJTVCJTVEJTdE"></script>
 
-
     <title>PORTA BERITA</title>
 </head>
 
 <body>
+    {{-- NAVBAR STARTED --}}
     <section class="ftco-section">
         <div class="container-fluid pt-4">
             <div class="row justify-content-between">
-                <div class="col d-flex justify-content-end">
+                <div class="col d-flex justify-content-start">
                     <div class="social-media">
                         <p class="mb-0 d-flex">
                             <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
@@ -59,8 +59,52 @@
                 </div>
             </div>
         </nav>
-
     </section>
+    {{-- NAVBAR ENDED --}}
+
+    {{-- FOOTER STARTED --}}
+    <footer class="d-flex justify-content-center align-items-center">
+        <div class="wrapper">
+            <div class="row d-flex justify-content-center">
+                <div class="col-auto">
+                    <ul>
+                        <li class="bold">Media Sosial</li>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>Tiktok</li>
+                    </ul>
+                </div>
+                <div class="col-auto">
+                    <ul>
+                        <li class="bold">Kontak</li>
+                        <li>02192891140</li>
+                        <li>debora@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-auto">
+                    <ul>
+                        <li class="bold">Alamat</li>
+                        <li>ily to the moon n back</li>
+                    </ul>
+                </div>
+                <div class="col-auto">
+                    <ul>
+                        <li class="bold">Lorem, ipsum dolor.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                    </ul>
+                </div>
+                <div class="col-auto">
+                    <ul>
+                        <li class="bold">Lorem, ipsum dolor.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="line mb-3"></div>
+            <div class="cp">Copyright</div>
+        </div>
+    </footer>
+    {{-- FOOTER ENDED --}}
 
 </body>
 <script src="js/jquery.min.js"></script>

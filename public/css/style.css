@@ -46,6 +46,15 @@
     box-sizing: border-box;
 }
 
+* {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 html {
     font-family: sans-serif;
     line-height: 1.15;
@@ -10948,4 +10957,22 @@ h5,
 .form-control:focus,
 .form-control:active {
     border-color: #000;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+footer .wrapper {
+    width: 95%;
+}
+
+footer .line {
+    height: 2px;
+    width: 100%;
+    background-color: black;
 }
