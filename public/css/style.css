@@ -606,6 +606,7 @@ pre code {
 }
 
 .container-fluid {
+    background: #000;
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -4425,6 +4426,7 @@ input[type="button"].btn-block {
 }
 
 .nav-link {
+    color: #121212;
     display: block;
     padding: 0.5rem 1rem;
 }
@@ -10687,7 +10689,7 @@ h5,
 }
 
 .ftco-section {
-    padding: 7em 0;
+    /* padding: 7em 0; */
 }
 
 .ftco-no-pt {
@@ -10710,7 +10712,7 @@ h5,
 }
 
 .ftco-navbar-light {
-    background: white !important;
+    background: #f8f9fa !important;
     z-index: 3;
     padding: 0;
 }
@@ -10858,7 +10860,7 @@ h5,
 }
 
 .navbar-brand {
-    color: #000;
+    color: white;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 20px;

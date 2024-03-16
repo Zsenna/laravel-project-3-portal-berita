@@ -15,18 +15,8 @@
 
 <body>
     <section class="ftco-section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-6 text-center mb-5">
-                    <h2 class="heading-section">Website menu #02</h2>
-                </div>
-            </div>
-        </div>
-        <div class="container">
+        <div class="container-fluid pt-4">
             <div class="row justify-content-between">
-                <div class="col">
-                    <a class="navbar-brand" href="index.html">Papermag <span>Magazine</span></a>
-                </div>
                 <div class="col d-flex justify-content-end">
                     <div class="social-media">
                         <p class="mb-0 d-flex">
@@ -36,6 +26,9 @@
                             <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
                         </p>
                     </div>
+                </div>
+                <div class="col">
+                    <a class="navbar-brand" href="/">NEWS</a>
                 </div>
             </div>
         </div>
@@ -52,9 +45,9 @@
                 </form>
                 <div class="collapse navbar-collapse" id="ftco-nav">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active"><a href="#" class="nav-link">Discover</a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link" style="color: black;">Discover</a></li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</a>
+                            <a class="nav-link dropdown-toggle" style="color: black;" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</a>
                             <div class="dropdown-menu" aria-labelledby="dropdown04">
                                 <a class="dropdown-item" href="#">Cat 1</a>
                                 <a class="dropdown-item" href="#">Cat 2</a>
