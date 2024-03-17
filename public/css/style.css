@@ -10960,13 +10960,6 @@ h5,
 }
 
 /* Footer */
-footer {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-}
-
 footer .wrapper {
     width: 95%;
 }

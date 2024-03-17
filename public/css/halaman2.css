@@ -1,0 +1,64 @@
+#halaman2 {
+    margin-bottom: 5rem;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+#ls {
+    padding: 1rem;
+    padding-left: 2rem;
+}
+
+.more-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left-side .berita img {
+    height: 50%;
+    width: 100%;
+}
+
+.left-side .more-news .image {
+    overflow: hidden;
+    height: 20rem;
+}
+
+.left-side .text {
+    text-align: justify;
+}
+
+.left-side .card-body, .right-side .card-body {
+    padding: 0;
+}
+
+.left-side .more-news .card-text {
+    text-align: justify;
+}
+
+.left-side .more-news .detail {
+    font-weight: bolder;
+    font-size: smaller;
+    color: gray;
+}
+
+.right-side .card-body {
+    padding-left: 1rem;
+}
+
+.right-side .image {
+    overflow: hidden;
+    width: 8rem;
+    height: 10rem;
+}
