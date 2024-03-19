@@ -1,21 +1,96 @@
-@extends('layouts.index')
+<!doctype html>
+<html lang="en">
 
-@push('halaman2css')
-<link rel="stylesheet" href="css/halaman2.css">
-@endpush
-
-@section('content')
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .left-side .berita img {
+            height: 50%;
+            width: 100%;
+        }
+
+        .left-side .more-news .image {
+            overflow: hidden;
+            height: 20rem;
+        }
+
+        .left-side .more-news .wrap {
+            width: 14rem;
+        }
+
+        .left-side .text {
+            text-align: justify;
+        }
+
+        .left-side .more-news .card-text {
+            text-align: justify;
+        }
+
+        .left-side .more-news .detail {
+            font-weight: bolder;
+            font-size: smaller;
+            color: gray;
+        }
+
+        .image-wrap {
+            background-size: cover;
+            background-position: center;
+            overflow: hidden;
+        }
+
+        .left-side .image-wrap {
+            height: 20rem;
+        }
+
+        .right-side .image-wrap {
+            width: 8rem;
+            height: 10rem;
+        }
+
+
+        /* RESPONSIVING */
+        @media screen and (max-width: 1000px) {
+            .right-side {
+                font-size: smaller;
+            }
+
+            .right-side .image-wrap {
+                width: 10rem;
+                height: 9rem;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .left-side .wrap {
+                font-size: small;
+            }
+
+            .right-side {
+                display: none;
+            }
+        }
     </style>
 
 </head>
 
+<body>
     <!-- MAIN SECTION STARTED -->
-    <section id="halaman2">
+    <section>
+
         <div class="d-flex">
             <!-- LEFT SIDE DIV -->
-            <div class="left-side col-9" id="ls">
+            <div class="left-side container-fluid col-md-9 col-12 ps-5 p-2">
                 <div class="berita mb-5">
                     <img src="https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg"
                         class="rounded mb-3" alt="...">
@@ -67,14 +142,12 @@
                     </div>
                 </div>
 
-                <div class="more-news">
+                <h3>More News</h3>
+                <div class="more-news d-flex flex-wrap justify-content-evenly align-items-center">
                     <!-- CARD -->
-                    <div class="wrap mb-4 p-3" style="width: 14rem;">
-                        <div class="image rounded position-relative">
-                            <div class="image-wrap">
-                                <img src="https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg"
-                                    alt="...">
-                            </div>
+                    <div class="wrap mb-4 p-3">
+                        <div class="image-wrap rounded"
+                            style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                         </div>
                         <div class="card-body">
                             <div class="detail">15 May 2024 8:00 AM</div>
@@ -85,12 +158,9 @@
                     </div>
 
                     <!-- CARD -->
-                    <div class="wrap mb-4 p-3" style="width: 14rem;">
-                        <div class="image rounded position-relative">
-                            <div class="image-wrap">
-                                <img src="https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg"
-                                    alt="...">
-                            </div>
+                    <div class="wrap mb-4 p-3">
+                        <div class="image-wrap rounded"
+                            style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                         </div>
                         <div class="card-body">
                             <div class="detail">15 May 2024 8:00 AM</div>
@@ -101,12 +171,9 @@
                     </div>
 
                     <!-- CARD -->
-                    <div class="wrap mb-4 p-3" style="width: 14rem;">
-                        <div class="image rounded position-relative">
-                            <div class="image-wrap">
-                                <img src="https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg"
-                                    alt="...">
-                            </div>
+                    <div class="wrap mb-4 p-3">
+                        <div class="image-wrap rounded"
+                            style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                         </div>
                         <div class="card-body">
                             <div class="detail">15 May 2024 8:00 AM</div>
@@ -117,12 +184,9 @@
                     </div>
 
                     <!-- CARD -->
-                    <div class="wrap mb-4 p-3" style="width: 14rem;">
-                        <div class="image rounded position-relative">
-                            <div class="image-wrap">
-                                <img src="https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg"
-                                    alt="...">
-                            </div>
+                    <div class="wrap mb-4 p-3">
+                        <div class="image-wrap rounded"
+                            style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                         </div>
                         <div class="card-body">
                             <div class="detail">15 May 2024 8:00 AM</div>
@@ -133,12 +197,9 @@
                     </div>
 
                     <!-- CARD -->
-                    <div class="wrap mb-4 p-3" style="width: 14rem;">
-                        <div class="image rounded position-relative">
-                            <div class="image-wrap">
-                                <img src="https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg"
-                                    alt="...">
-                            </div>
+                    <div class="wrap mb-4 p-3">
+                        <div class="image-wrap rounded"
+                            style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                         </div>
                         <div class="card-body">
                             <div class="detail">15 May 2024 8:00 AM</div>
@@ -149,12 +210,9 @@
                     </div>
 
                     <!-- CARD -->
-                    <div class="wrap mb-4 p-3" style="width: 14rem;">
-                        <div class="image rounded position-relative">
-                            <div class="image-wrap">
-                                <img src="https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg"
-                                    alt="...">
-                            </div>
+                    <div class="wrap mb-4 p-3">
+                        <div class="image-wrap rounded"
+                            style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                         </div>
                         <div class="card-body">
                             <div class="detail">15 May 2024 8:00 AM</div>
@@ -165,12 +223,9 @@
                     </div>
 
                     <!-- CARD -->
-                    <div class="wrap mb-4 p-3" style="width: 14rem;">
-                        <div class="image rounded position-relative">
-                            <div class="image-wrap">
-                                <img src="https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg"
-                                    alt="...">
-                            </div>
+                    <div class="wrap mb-4 p-3">
+                        <div class="image-wrap rounded"
+                            style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                         </div>
                         <div class="card-body">
                             <div class="detail">15 May 2024 8:00 AM</div>
@@ -181,12 +236,9 @@
                     </div>
 
                     <!-- CARD -->
-                    <div class="wrap mb-4 p-3" style="width: 14rem;">
-                        <div class="image rounded position-relative">
-                            <div class="image-wrap">
-                                <img src="https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg"
-                                    alt="...">
-                            </div>
+                    <div class="wrap mb-4 p-3">
+                        <div class="image-wrap rounded"
+                            style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                         </div>
                         <div class="card-body">
                             <div class="detail">15 May 2024 8:00 AM</div>
@@ -200,17 +252,14 @@
             </div>
 
             <!-- RIGHT SIDE DIV -->
-            <div class="right-side p-2 col-3">
+            <div class="right-side container-fluid p-2 col-md-3 col-0">
                 <h3 class="">More News</h3>
                 <!-- CARD -->
                 <div class="wrap d-flex mb-4" style="width: 100%;">
-                    <div class="image rounded position-relative">
-                        <div class="image-wrap">
-                            <img src="https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg"
-                                alt="...">
-                        </div>
+                    <div class="image-wrap rounded"
+                        style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                     </div>
-                    <div class="card-body ps-4">
+                    <div class="card-body ps-1">
                         <h5 class="card-title">Lorem, ipsum.</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet.</p>
                     </div>
@@ -218,13 +267,10 @@
 
                 <!-- CARD -->
                 <div class="wrap d-flex mb-4" style="width: 100%;">
-                    <div class="image rounded position-relative">
-                        <div class="image-wrap">
-                            <img src="https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg"
-                                alt="...">
-                        </div>
+                    <div class="image-wrap rounded"
+                        style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                     </div>
-                    <div class="card-body ps-4">
+                    <div class="card-body ps-1">
                         <h5 class="card-title">Lorem, ipsum.</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet.</p>
                     </div>
@@ -232,13 +278,10 @@
 
                 <!-- CARD -->
                 <div class="wrap d-flex mb-4" style="width: 100%;">
-                    <div class="image rounded position-relative">
-                        <div class="image-wrap">
-                            <img src="https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg"
-                                alt="...">
-                        </div>
+                    <div class="image-wrap rounded"
+                        style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                     </div>
-                    <div class="card-body ps-4">
+                    <div class="card-body ps-1">
                         <h5 class="card-title">Lorem, ipsum.</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet.</p>
                     </div>
@@ -246,13 +289,10 @@
 
                 <!-- CARD -->
                 <div class="wrap d-flex mb-4" style="width: 100%;">
-                    <div class="image rounded position-relative">
-                        <div class="image-wrap">
-                            <img src="https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg"
-                                alt="...">
-                        </div>
+                    <div class="image-wrap rounded"
+                        style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                     </div>
-                    <div class="card-body ps-4">
+                    <div class="card-body ps-1">
                         <h5 class="card-title">Lorem, ipsum.</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet.</p>
                     </div>
@@ -260,21 +300,27 @@
 
                 <!-- CARD -->
                 <div class="wrap d-flex mb-4" style="width: 100%;">
-                    <div class="image rounded position-relative">
-                        <div class="image-wrap">
-                            <img src="https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg"
-                                alt="...">
-                        </div>
+                    <div class="image-wrap rounded"
+                        style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                     </div>
-                    <div class="card-body ps-4">
+                    <div class="card-body ps-1">
                         <h5 class="card-title">Lorem, ipsum.</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
 
             </div>
-        </div>
 
     </section>
     <!-- MAIN SECTION ENDED -->
-@endsection
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
