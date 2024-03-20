@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 .left-side .berita img {
     height: 50%;
     width: 100%;
@@ -40,7 +41,6 @@
     width: 8rem;
     height: 10rem;
 }
-
 
 /* RESPONSIVING */
 @media screen and (max-width: 1000px) {

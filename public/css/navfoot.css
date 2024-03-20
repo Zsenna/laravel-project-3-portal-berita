@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +8,7 @@
 }
 
 nav .top {
-    background-color: #F5A623;
+    background-color: #f5a623;
     color: white;
 }
 
@@ -34,14 +35,13 @@ nav .icon {
     box-shadow: none;
 }
 
-
 .navbar .bts {
     color: white;
-    transition: .2s;
+    transition: 0.2s;
 }
 
 .navbar .bts:hover {
-    color: #F5A623;
+    color: #f5a623;
 }
 
 .navbar form,
@@ -51,7 +51,7 @@ nav .icon {
 }
 
 footer {
-    background-color: #F5A623;
+    background-color: #f5a623;
     color: white;
-    font-family: 'kurela';
+    font-family: "kurela";
 }
