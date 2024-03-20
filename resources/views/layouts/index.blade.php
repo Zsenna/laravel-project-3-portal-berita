@@ -20,15 +20,18 @@
                 <div class="col d-flex justify-content-start">
                     <div class="social-media">
                         <p class="mb-0 d-flex">
-                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+                            <!-- <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
                             <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
                             <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
+                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a> -->
+                            <a href="#" class="d-flex align-items-center justify-content-center"><img src="\image\socmed\akar-icons_facebook-fill.svg" alt=""></a>
+                            <a href="#" class="d-flex align-items-center justify-content-center"><img src="\image\socmed\entypo-social_linkedin-with-circle.svg" alt=""></a>
+                            <a href="#" class="d-flex align-items-center justify-content-center"><img src="\image\socmed\entypo-social_twitter-with-circle.svg" alt=""></a>
                         </p>
                     </div>
                 </div>
                 <div class="col">
-                    <a class="navbar-brand" href="/">NEWS</a>
+                    <a class="navbar-brand light" href="/">NEWS</a>
                 </div>
             </div>
         </div>

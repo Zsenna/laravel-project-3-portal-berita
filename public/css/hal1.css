@@ -1,0 +1,262 @@
+* {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+}
+
+#main {
+    width: 100%;
+    padding: 0em 10em 0em 10em;
+}
+
+.col {
+    margin-bottom: 3em;
+}
+
+/* carousel */
+#carousel {
+    padding: 0em 5em 0em 5em;
+    width: 100%;
+}
+
+.swiper {
+    width: fit-content;
+    height: auto;
+    border-radius: 1em;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28.667em;
+    height: 16.125em;
+    height: auto;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 28.667em;
+    height: 16.125em;
+    object-fit: cover;
+    background-color: black;
+    border-radius: 1em;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #121212;
+    border: 1px solid grey;
+    border-radius: 25px;
+    background: white;
+    --swiper-navigation-size: 1em;
+    padding: 20px;
+    width: 1%;
+    height: 7.5%;
+}
+
+/* headline news */
+#headline {
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
+}
+
+#headline .box {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#headline .row {
+    width: 100%;
+    border-radius: 1em;
+    gap: 2em;
+}
+
+#headline .image-container {
+    width: 100%;
+    position: relative;
+    width: auto;
+    border-radius: 1em;
+    /* background-color: aqua; */
+}
+
+#headline .text-block {
+    border-radius: 1em;
+    padding: 1em;
+    width: 40%;
+    height: fit-content;
+    /* background-color: purple; */
+    text-align: left;
+    position: absolute;
+    bottom: 25%;
+    left: 7%;
+    color: white;
+}
+
+#headline .button {
+    text-decoration: none;
+    width: 11.0656em;
+    height: 3.615em;
+    border: none;
+    background-color: white;
+    border-radius: 1em;
+}
+#headline img {
+    width: 68.3125em;
+    height: 38.435em;
+    object-fit: cover;
+    background-color: black;
+    border-radius: 1em;
+}
+
+#headline .col {
+    width: 20.5625em;
+    height: 7.6513em;
+    border-radius: 1em;
+}
+
+#headline .card {
+    padding-left: 1em;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+    align-items: center;
+    border: none;
+}
+
+#headline .card:hover {
+    background-color: grey;
+    /* opacity: 50%; */
+}
+
+#headline .card-text {
+    text-align: left;
+    color: black;
+}
+
+#headline .card img {
+    width: 4.3513em;
+    height: 5.8006em;
+    object-fit: cover;
+    background-color: blue;
+    border-radius: 1em;
+}
+
+/* news */
+#news {
+    justify-content: center;
+    display: flex;
+}
+
+#news .box-news {
+    border-radius: 1em;
+    width: 100%;
+    /* background-color: aqua; */
+    gap: 3em;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#news .box-left {
+    padding-top: 1em;
+    border-radius: 1em;
+    width: 100%;
+    /* background-color: purple; */
+    align-items: start;
+    align-content: start;
+}
+
+#news .container-left {
+    /* background-color: purple; */
+    width: 100%;
+    display: flex;
+    gap: 3em;
+}
+
+#news .box-left .card {
+    border: none;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    width: 13.3125em;
+    height: 29.25em;
+}
+
+#news .box-left img {
+    border-radius: 1em;
+    background-color: black;
+    object-fit: cover;
+    width: 100%;
+    height: 15.5275em;
+}
+
+#news .box-right {
+    padding-top: 1em;
+    border-radius: 1em;
+    width: 100%;
+    /* background-color: purple; */
+    align-items: start;
+    align-content: start;
+}
+
+#news .container-right {
+    width: 100%;
+    height: 100%;
+    gap: 3em;
+}
+
+#news .box-right .card {
+    border: none;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    width: 100%;
+    height: 32.1875em;
+}
+
+#news .box-right img {
+    border-radius: 1em;
+    background-color: black;
+    object-fit: cover;
+    width: 100%;
+    height: 24.8263em;
+}
+
+@media screen and (max-width: 1700px) {
+    /* headline news */
+    #headline .row {
+        width: 100%;
+        justify-content: center;
+        display: center;
+        margin: 0em;
+        width: 100%;
+    }
+
+    #headline img {
+        width: 68.3125em;
+        height: 38.435em;
+        object-fit: cover;
+        background-color: black;
+        border-radius: 1em;
+    }
+
+    #headline .col {
+        margin: 0em;
+        justify-content: center;
+        display: flex;
+        width: 15em;
+        height: 5em;
+        flex-direction: row;
+    }
+}

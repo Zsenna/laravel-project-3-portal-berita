@@ -10745,7 +10745,7 @@ h5,
     padding-left: 20px;
     padding-right: 20px;
     font-weight: 500;
-    color: #fff;
+    color: #f8f9fa;
     text-transform: uppercase;
     letter-spacing: 2px;
     position: relative;
@@ -10758,7 +10758,7 @@ h5,
     height: 100%;
     bottom: 0;
     left: 0;
-    background-color: #f1bc31;
+    background-color: #f8f9fa;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     -ms-transform: scaleX(0);
@@ -10769,11 +10769,11 @@ h5,
     z-index: -1;
 }
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-    color: #fff;
+    color: #f8f9fa;
 }
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover:before {
     visibility: visible;
-    background-color: #f1bc31;
+    background-color: #f8f9fa;
     -webkit-transform: scaleX(1);
     -ms-transform: scaleX(1);
     transform: scaleX(1);
@@ -10840,16 +10840,23 @@ h5,
 .ftco-navbar-light .navbar-nav > .nav-item.active > a {
     color: #fff;
 }
+
+.ftco-navbar-light .navbar-nav > .nav-item.active > a:hover {
+    color: #000;
+}
 .ftco-navbar-light .navbar-nav > .nav-item.active > a:before {
     visibility: visible;
-    background-color: #f1bc31;
+    background-color: #f8f9fa;
     -webkit-transform: scaleX(1);
     -ms-transform: scaleX(1);
     transform: scaleX(1);
 }
 @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-        color: #f1bc31;
+        color: #fff;
+    }
+    .ftco-navbar-light .navbar-nav > .nav-item.active > a:hover {
+        color: #000;
     }
     .ftco-navbar-light .navbar-nav > .nav-item.active > a:before {
         display: none;
@@ -10886,25 +10893,29 @@ h5,
     color: #000;
 }
 
-.social-media {
+/* .social-media {
     display: inline-block;
 }
 .social-media p a {
-    border: 1px solid #e6e6e6;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     margin-right: 4px;
+    background-color: #333333;
 }
 .social-media p a span {
-    color: #4d4d4d;
+    color: #000;
 }
 .social-media p a:hover {
-    background: #f1bc31;
-    border-color: #f1bc31;
+    background: white;
+    border-color: #000;
 }
 .social-media p a:hover span {
-    color: #fff;
+    color: #000;
+} */
+
+.social-media p a {
+    margin-right: 0.5em;
 }
 
 .searchform {
