@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('halaman/halaman1');
 });
 
+Route::get('/halaman1', function () {
+    return view('halaman/halaman1');
+});
+
 Route::get('/halaman2', function () {
     return view('halaman/halaman2');
 });
