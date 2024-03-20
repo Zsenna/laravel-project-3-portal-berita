@@ -1,119 +1,117 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kurale&family=Nunito:wght@200;300;400;600;700&family=Poppins:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    {{-- CSS --}}
+    <link rel="stylesheet" href="css/navfoot.css">
     @stack('halaman2css')
-    <script defer="" referrerpolicy="origin" src="/cdn-cgi/zaraz/s.js?z=JTdCJTIyZXhlY3V0ZWQlMjIlM0ElNUIlNUQlMkMlMjJ0JTIyJTNBJTIyV2Vic2l0ZSUyMG1lbnUlMjAwMiUyMiUyQyUyMnglMjIlM0EwLjE0ODA0ODQwNDIxNzExMjYzJTJDJTIydyUyMiUzQTE5MjAlMkMlMjJoJTIyJTNBMTA4MCUyQyUyMmolMjIlM0E5MTElMkMlMjJlJTIyJTNBMTkyMCUyQyUyMmwlMjIlM0ElMjJodHRwcyUzQSUyRiUyRnByZXZpZXcuY29sb3JsaWIuY29tJTJGdGhlbWUlMkZib290c3RyYXAlMkZ3ZWJzaXRlLW1lbnUtMTIlMkYlMjIlMkMlMjJyJTIyJTNBJTIyJTIyJTJDJTIyayUyMiUzQTI0JTJDJTIybiUyMiUzQSUyMlVURi04JTIyJTJDJTIybyUyMiUzQS00MjAlMkMlMjJxJTIyJTNBJTVCJTVEJTdE"></script>
 
-    <title>PORTA BERITA</title>
 </head>
 
 <body>
-    {{-- NAVBAR STARTED --}}
-    <section class="ftco-section">
-        <div class="container-fluid pt-4">
-            <div class="row justify-content-between">
-                <div class="col d-flex justify-content-start">
-                    <div class="social-media">
-                        <p class="mb-0 d-flex">
-                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
-                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
-                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
-                        </p>
-                    </div>
-                </div>
-                <div class="col">
-                    <a class="navbar-brand" href="/">NEWS</a>
-                </div>
+    <!-- NAVBAR SECTION STARTED -->
+    <nav>
+        <div class="top p-3 d-flex align-items-center justify-content-center position-relative fs-5">
+            <div class="icon">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter mx-2"></i>
+                <i class="bi bi-facebook"></i>
             </div>
+            <div class="title fw-bold">NEWS</div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="fa fa-bars"></span> Menu
-                </button>
-                <form action="#" class="searchform order-lg-first mr-4">
-                    <div class="form-group d-flex">
-                        <input type="text" class="form-control pl-3" placeholder="Search">
-                        <button type="submit" placeholder="" class="form-control search"><span class="fa fa-search"></span></button>
+        <div class="bt py-3 ps-5">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <form class="d-flex position-relative badge rounded-pill" role="search">
+                        <button class="btn bts" type="submit"><i class="bi bi-search"></i></button>
+                        <input class="form-control" type="search" placeholder="Search News" aria-label="Search">
+                    </form>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
                     </div>
-                </form>
-                <div class="collapse navbar-collapse" id="ftco-nav">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active"><a href="#" class="nav-link" style="color: black;">Discover</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" style="color: black;" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown04">
-                                <a class="dropdown-item" href="#">Cat 1</a>
-                                <a class="dropdown-item" href="#">Cat 2</a>
-                                <a class="dropdown-item" href="#">Cat 3</a>
-                                <a class="dropdown-item" href="#">Cat 4</a>
-                            </div>
-                        </li>
-                    </ul>
                 </div>
-            </div>
-        </nav>
-    </section>
-    {{-- NAVBAR ENDED --}}
+            </nav>
+        </div>
+    </nav>
+    <!-- NAVBAR SECTION ENDED -->
 
+
+    <!-- CONTENT SECTION STARTED -->
     @yield('content')
+    <!-- CONTENT SECTION ENDED -->
 
-    {{-- FOOTER STARTED --}}
-    <footer class="d-flex justify-content-center align-items-center">
-        <div class="wrapper">
-            <div class="row d-flex justify-content-center">
-                <div class="col-auto">
-                    <ul>
-                        <li class="bold">Media Sosial</li>
-                        <li>Instagram</li>
-                        <li>Facebook</li>
-                        <li>Tiktok</li>
-                    </ul>
-                </div>
-                <div class="col-auto">
-                    <ul>
-                        <li class="bold">Kontak</li>
-                        <li>02192891140</li>
-                        <li>debora@gmail.com</li>
-                    </ul>
-                </div>
-                <div class="col-auto">
-                    <ul>
-                        <li class="bold">Alamat</li>
-                        <li>ily to the moon n back</li>
-                    </ul>
-                </div>
-                <div class="col-auto">
-                    <ul>
-                        <li class="bold">Lorem, ipsum dolor.</li>
-                        <li>Lorem ipsum dolor sit amet.</li>
-                    </ul>
-                </div>
-                <div class="col-auto">
-                    <ul>
-                        <li class="bold">Lorem, ipsum dolor.</li>
-                        <li>Lorem ipsum dolor sit amet.</li>
-                    </ul>
-                </div>
+    {{-- FOOTER SECTION STARTED --}}
+    <footer class="mt-5 p-3">
+        <div class="row">
+            <div class="logo col-lg-6 col-md-12 d-flex align-items-center justify-content-center my-4">
+                <img src="images/Palembang_CoA.svg" alt="">
+                <h3 class="fw-bold fs-1 ps-5">Portal Berita <br>
+                    Kota Palembang</h3>
             </div>
-            <div class="line mb-3"></div>
-            <div class="cp">Copyright</div>
+            <div class="info col-lg-6 col-md-12 d-flex align-items-center justify-content-evenly">
+                <ul>
+                    <li class="fw-bold">Our Page</li>
+                    <li>Our Page</li>
+                    <li>Our Page</li>
+                    <li>Our Page</li>
+                </ul>
+                <ul>
+                    <li class="fw-bold">Contact Us</li>
+                    <li>Contact Us</li>
+                    <li>Contact Us</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
         </div>
     </footer>
-    {{-- FOOTER ENDED --}}
+    {{-- FOOTER SECTION STARTED --}}
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
 </body>
-<script src="js/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-<script src="js/main.js"></script>
-<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon="{'rayId':'8652a685881a81f2','version':'2024.2.4','token':'cd0b4b3a733644fc843ef0b185f98241'}" crossorigin="anonymous"></script>
 
 </html>

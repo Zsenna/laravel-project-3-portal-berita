@@ -1,30 +1,3 @@
-#halaman2 {
-    margin-bottom: 5rem;
-}
-
-.fw-bold {
-    font-weight: bold;
-}
-
-#ls {
-    padding: 1rem;
-    padding-left: 2rem;
-}
-
-.more-news {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.image-wrap {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .left-side .berita img {
     height: 50%;
     width: 100%;
@@ -35,12 +8,12 @@
     height: 20rem;
 }
 
-.left-side .text {
-    text-align: justify;
+.left-side .more-news .wrap {
+    width: 14rem;
 }
 
-.left-side .card-body, .right-side .card-body {
-    padding: 0;
+.left-side .text {
+    text-align: justify;
 }
 
 .left-side .more-news .card-text {
@@ -53,12 +26,40 @@
     color: gray;
 }
 
-.right-side .card-body {
-    padding-left: 1rem;
+.image-wrap {
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
 }
 
-.right-side .image {
-    overflow: hidden;
+.left-side .image-wrap {
+    height: 20rem;
+}
+
+.right-side .image-wrap {
     width: 8rem;
     height: 10rem;
+}
+
+
+/* RESPONSIVING */
+@media screen and (max-width: 1000px) {
+    .right-side {
+        font-size: smaller;
+    }
+
+    .right-side .image-wrap {
+        width: 10rem;
+        height: 9rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .left-side .wrap {
+        font-size: small;
+    }
+
+    .right-side {
+        display: none;
+    }
 }
