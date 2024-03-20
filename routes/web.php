@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\BeritaUtamaController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\HighlightController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +20,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('layouts/index');
 });
+
+//auth
+Route::get('/login', [AuthController::class, 'login'])->name('login');
+Route::post('/login', [AuthController::class, 'authenticated']);
+Route::get('/logout', [AuthController::class, 'logout']);
+
+//protected from not login
+Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
+Route::get('/headline', [HighlightController::class, 'index'])->middleware('auth');
+Route::get('/bertama', [BeritaUtamaController::class, 'index'])->middleware('auth');
