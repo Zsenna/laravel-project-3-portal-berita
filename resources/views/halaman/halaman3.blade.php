@@ -18,7 +18,7 @@
             <div class="text-wrapper mb-5">
                     <h1 class="tittle-headline">HEADLINE</h1>
                     <img class="img-fluid" src="\image\headline\Vector 10.svg" alt="">
-                </div>
+            </div>
             <div class="box">
                 <div class="row">
                     <div class="card card-left">

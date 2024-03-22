@@ -34,6 +34,14 @@ Route::get('/halaman3', function () {
     return view('halaman/halaman3');
 });
 
+Route::get('/header', function () {
+    return view('layouts/header');
+});
+
+Route::get('/latest', function () {
+    return view('halaman/latest');
+});
+
 //auth
 Route::get('/login', [AuthController::class, 'login'])->name('login');
 Route::post('/login', [AuthController::class, 'authenticated']);
