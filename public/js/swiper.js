@@ -25,3 +25,13 @@ var swiper = new Swiper(".mySwiper", {
     mousewheel: true,
     keyboard: true,
 });
+
+var swiperheadline = new Swiper(".mySwiper1", {
+    loop: true,
+    slidesPerView: 1,
+    pagination: {
+        el: ".swiper-pagination",
+    },
+    mousewheel: true,
+    keyboard: true,
+});

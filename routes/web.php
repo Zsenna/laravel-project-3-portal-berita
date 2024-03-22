@@ -29,6 +29,10 @@ Route::get('/halaman2', function () {
     return view('halaman/halaman2');
 });
 
+Route::get('/halaman3', function () {
+    return view('halaman/halaman3');
+});
+
 //auth
 Route::get('/login', [AuthController::class, 'login'])->name('login');
 Route::post('/login', [AuthController::class, 'authenticated']);

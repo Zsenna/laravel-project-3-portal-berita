@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+    position: relative;
+    padding: 1rem 5%;
+    width: 100vw;
+    height: 100vh;
+}
+
+header .background img {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .content {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+header .content .logo {
+    width: 30rem;
+    padding-right: 1rem;
+}
+
+header .content .txt {
+    position: absolute;
+    width: 49rem;
+    bottom: 1rem;
+    left: 0;
+}
+
+header .content .cta {
+    width: 15rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.4rem;
+}
+
+header .cta .menu i,
+header .cta .search i {
+    color: white;
+    transition: .2s linear;
+}
+
+header .dropdown-menu {
+    overflow: visible;
+    transition: .2s linear;
+}
+
+#bts {
+    position: absolute;
+    top: 3px;
+    right: 2rem;
+    transform: translateX(0);
+    transition: .3s;
+}
+
+#bts.move {
+    transform: translateX(-170px);
+}
+
+#fs {
+    width: 10rem;
+    transition: .5s;
+    transform: scale(0);
+}
+
+#fs.show {
+    transform: scale(100%);
+}
+
+.bd {
+    border: 2px solid red;
+}
+
+header .sosmed {
+    overflow: visible;
+    margin-right: -50px;
+    font-weight: bold;
+    color: white;
+}
+
+header .sosmed .icons {
+    margin-right: -50px;
+}
+
+header .sosmed .icons a {
+    color: white;
+}
+
+header .foll {
+    transform: rotate(-90deg);
+}
+
+/* RESPONSIVE HEADER */
+@media screen and (max-width: 830px) {
+    header {
+        height: 70vh;
+    }
+
+    header .content .logo {
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    header {
+        height: 65vh;
+    }
+
+    header .content .logo {
+        position: absolute;
+        top: 40px;
+        width: 20rem;
+    }
+}

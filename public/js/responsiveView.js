@@ -1,6 +1,6 @@
 // Array untuk menyimpan jumlah item yang ditampilkan dalam setiap kondisi lebar tampilan
 const displaySettings = [
-    { width: 1700, itemsDisplayed: 5 },
+    { width: 1700, itemsDisplayed: 6 },
     { width: 1000, itemsDisplayed: 4 },
     { width: 700, itemsDisplayed: 2 },
     { width: 0, itemsDisplayed: 1 }, // Default for smaller screens
