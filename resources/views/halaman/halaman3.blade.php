@@ -197,79 +197,77 @@
                     </div>
                 </div>
                 <div class="box-right">
-                    <div class="row row-cols">
-                        <div class="swiper mySwiper2">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="card card-col">
-                                        <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
-                                        <div class="card-body">
-                                            <p class="card-text-date">08.22.2023</p>
-                                            <p class="card-text">Thailand makes it mandatory for tourists to stay</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="card card-col">
-                                        <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
-                                        <div class="card-body">
-                                            <p class="card-text-date">08.22.2023</p>
-                                            <p class="card-text">Thailand makes it mandatory for tourists to stay</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="card card-col">
-                                        <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
-                                        <div class="card-body">
-                                            <p class="card-text-date">08.22.2023</p>
-                                            <p class="card-text">Thailand makes it mandatory for tourists to stay</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="card card-col">
-                                        <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
-                                        <div class="card-body">
-                                            <p class="card-text-date">08.22.2023</p>
-                                            <p class="card-text">Thailand makes it mandatory for tourists to stay</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="card card-col">
-                                        <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
-                                        <div class="card-body">
-                                            <p class="card-text-date">08.22.2023</p>
-                                            <p class="card-text">Thailand makes it mandatory for tourists to stay</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="card card-col">
-                                        <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
-                                        <div class="card-body">
-                                            <p class="card-text-date">08.22.2023</p>
-                                            <p class="card-text">Thailand makes it mandatory for tourists to stay</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="card card-col">
-                                        <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
-                                        <div class="card-body">
-                                            <p class="card-text-date">08.22.2023</p>
-                                            <p class="card-text">Thailand makes it mandatory for tourists to stay</p>
-                                        </div>
+                    <div class="swiper mySwiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card card-col">
+                                    <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text-date">08.22.2023</p>
+                                        <p class="card-text">Thailand makes it mandatory for tourists to stay</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="continer-fluid">
-                                <div class="swiper-button-next"></div>
-                                <div class="swiper-button-prev"></div>
+                            <div class="swiper-slide">
+                                <div class="card card-col">
+                                    <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text-date">08.22.2023</p>
+                                        <p class="card-text">Thailand makes it mandatory for tourists to stay</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>  
-                    </div>
+                            <div class="swiper-slide">
+                                <div class="card card-col">
+                                    <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text-date">08.22.2023</p>
+                                        <p class="card-text">Thailand makes it mandatory for tourists to stay</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card card-col">
+                                    <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text-date">08.22.2023</p>
+                                        <p class="card-text">Thailand makes it mandatory for tourists to stay</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card card-col">
+                                    <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text-date">08.22.2023</p>
+                                        <p class="card-text">Thailand makes it mandatory for tourists to stay</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card card-col">
+                                    <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text-date">08.22.2023</p>
+                                        <p class="card-text">Thailand makes it mandatory for tourists to stay</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card card-col">
+                                    <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text-date">08.22.2023</p>
+                                        <p class="card-text">Thailand makes it mandatory for tourists to stay</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="continer-fluid">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>  
                 </div>
             </div>
         </div>
