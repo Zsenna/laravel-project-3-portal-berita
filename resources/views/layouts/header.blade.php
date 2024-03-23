@@ -19,6 +19,7 @@
     {{-- CSS --}}
     <link rel="stylesheet" href="css/navfoot.css">
     @stack('halaman3css')
+    @stack('latestcss')
 
 </head>
 <body>
@@ -108,6 +109,7 @@
         });
     </script>
     @stack('halaman3js')
+    @stack('latestjs')
 
 </body>
 </html>

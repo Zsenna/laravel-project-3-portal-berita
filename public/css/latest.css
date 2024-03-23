@@ -1,0 +1,193 @@
+        /* GLOBAL CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style-type: none;
+        }
+
+        #sec-3,
+        #sec-2 {
+            padding: 3rem 6%;
+        }
+
+        #sec-3 h3,
+        #sec-2 h3 {
+            display: inline;
+            border-bottom: 2px solid #f5a623;
+            padding-right: 10%;
+        }
+
+        #sec-3 .cta,
+        #sec-2 .cta {
+            position: absolute;
+            width: 5%;
+            height: 5%;
+            gap: 50%;
+            right: 0;
+            top: 0;
+        }
+
+        .swiper-button-next,
+        .swiper-button-prev {
+            color: #f5a623;
+            --swiper-navigation-size: 2em;
+            width: 1%;
+        }
+
+        .bd {
+            border: 2px solid red;
+        }
+
+        /* SEC-2 */
+        #sec-2 .swiper-slide {
+            padding: 0 1rem;
+        }
+
+        #sec-2 .cat {
+            padding: .2rem .5rem;
+            margin-right: 10%;
+            background-color: #f5a623;
+            color: white;
+        }
+
+        #sec-2 .item img {
+            height: 15rem;
+        }
+
+        /* SEC-3 */
+        #sec-3 .left .item {
+            /* width: 100%; */
+            height: 30.3%;
+            background-size: cover;
+            background-position: center;
+            overflow: hidden;
+        }
+
+        #sec-3 .left .item::after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 70%;
+            left: 0;
+            bottom: 0;
+            background: linear-gradient(0deg, rgba(245, 166, 35, 1) 0%, rgba(245, 166, 35, 0) 100%);
+        }
+
+        #sec-3 .left .date {
+            position: absolute;
+            z-index: 3;
+            left: 5%;
+            bottom: 18%;
+            color: white;
+        }
+
+        #sec-3 .left .title {
+            position: absolute;
+            z-index: 3;
+            left: 5%;
+            bottom: 3%;
+            color: white;
+        }
+
+        #sec-3 .right .item .img {
+            width: 5rem;
+            height: 5rem;
+            background-size: cover;
+            background-position: center;
+            overflow: hidden;
+        }
+
+        #sec-3 .right .item {
+            width: 90%;
+        }
+
+        /* RESPONSIVE */
+        @media screen and (max-width: 910px) {
+
+            #sec-3 .cta,
+            #sec-2 .cta {
+                width: 10%;
+            }
+        }
+
+        @media screen and (max-width: 795px) {
+            #sec-2 .swiper-slide {
+                padding: 0 .8rem;
+            }
+
+            #sec-2 .item {
+                font-size: 70%;
+            }
+
+            #sec-2 .item img {
+                height: 10rem;
+            }
+
+            #sec-2 .card-title {
+                font-size: 100%;
+            }
+
+            #sec-2 .card-text {
+                font: 70%;
+            }
+        }
+
+        @media screen and (max-width: 576px) {
+            #sec-2 .swiper-slide {
+                padding: 0 .3rem;
+            }
+
+            #sec-2 .cat {
+                padding: .1rem .2rem;
+                margin-right: 4%;
+            }
+
+            #sec-2 .item {
+                font-size: 60%;
+            }
+
+            #sec-2 .card-body {
+                padding: .1rem;
+            }
+
+            #sec-2 .item img {
+                height: 6rem;
+            }
+
+            #sec-3 .cta,
+            #sec-2 .cta {
+                width: 17%;
+            }
+
+            #sec-3 .left {
+                height: 18vh;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                margin-bottom: 1rem;
+                padding: 0;
+            }
+
+            #sec-3 .left .item {
+                font-size: 50%;
+                height: 100%;
+                width: 30%;
+            }
+
+            #sec-3 .left .item .title {
+                font-size: 150%;
+            }
+        }
+
+        @media screen and (max-width: 450px) {
+            #sec-3 .left {
+                height: 10vh;
+            }
+
+            #sec-3 .left .item .title {
+                font-size: 130%;
+            }
+        }
