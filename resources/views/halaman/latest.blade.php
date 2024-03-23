@@ -367,7 +367,7 @@
                 </div>
             </div>
         </section>
-        <!-- LATEST SECTION ENDED -->
+    <!-- LATEST SECTION ENDED -->
 @endsection
 
 
