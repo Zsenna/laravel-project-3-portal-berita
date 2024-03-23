@@ -187,10 +187,19 @@
 
 @media screen and (max-width: 450px) {
     #sec-3 .left {
-        height: 10vh;
+        font-size: smaller;
+        height: 15vh;
     }
 
     #sec-3 .left .item .title {
         font-size: 130%;
+    }
+
+    #sec-2 .item {
+        font-size: 50%;
+    }
+
+    #sec-2 .item img {
+        height: 4rem;
     }
 }

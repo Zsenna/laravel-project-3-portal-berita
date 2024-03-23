@@ -111,6 +111,12 @@ header .foll {
     transform: rotate(-90deg);
 }
 
+footer {
+    background-color: #f5a623;
+    color: white;
+    font-family: "kurela";
+}
+
 /* RESPONSIVE HEADER */
 @media screen and (max-width: 830px) {
     header {
@@ -131,5 +137,23 @@ header .foll {
         position: absolute;
         top: 40px;
         width: 20rem;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    header {
+        height: 65vh;
+    }
+
+    header .content .logo {
+        position: absolute;
+        top: 40px;
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    footer .logo {
+        padding: 0 7rem;
     }
 }

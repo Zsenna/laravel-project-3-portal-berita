@@ -70,7 +70,7 @@
     <footer class="mt-5 p-3">
         <div class="row">
             <div class="logo col-lg-6 col-md-12 d-flex align-items-center justify-content-center my-4">
-                <img src="images/Palembang_CoA.svg" alt="">
+                <img src="images/Palembang_CoA.svg" class="img-fluid" alt="">
                 <h3 class="fw-bold fs-1 ps-5">Portal Berita <br>
                     Kota Palembang</h3>
             </div>
