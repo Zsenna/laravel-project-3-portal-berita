@@ -25,7 +25,7 @@ a {
 }
 
 /* trending */
-#carousel {
+/* #carousel {
     padding: 0em 5em 0em 5em;
     width: 100%;
 }
@@ -66,49 +66,48 @@ a {
     height: 14.3em;
     object-fit: cover;
     border-radius: 0.5em;
-}
+} */
 
-.swiper-button-next,
+/* .swiper-button-next,
 .swiper-button-prev {
     color: #f5a623;
     --swiper-navigation-size: 2em;
-    /* padding: 25px; */
     width: 1%;
     height: 7.5%;
     position: absolute;
     top: 0;
     right: 0;
-    margin: 1.25em; /* Sesuaikan jarak dari tepi */
+    margin: 1.25em;
 }
 
 .swiper-button-next {
-    right: 2%; /* Sesuaikan jarak ke kanan */
+    right: 2%;
 }
 
 .swiper-button-prev {
-    left: 90%; /* Sesuaikan jarak ke kanan */
-}
+    left: 90%;
+} */
 
 /* headline */
-#headline {
+#sec-1 #headline {
     width: 100%;
     height: auto;
     border-radius: 1em;
 }
 
-#headline .box {
+#sec-1 #headline .box {
     justify-content: center;
     display: flex;
     align-items: center;
     text-align: center;
 }
 
-#headline .row {
+#sec-1 #headline .row {
     width: 100%;
     border-radius: 1em;
     gap: 2em;
 }
-#headline .row .card-left {
+#sec-1 #headline .row .card-left {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -121,7 +120,7 @@ a {
     border: none;
 }
 
-#headline .row .card-left .card-img-top {
+#sec-1 #headline .row .card-left .card-img-top {
     width: 100%;
     height: 28em;
     object-fit: cover;
@@ -129,12 +128,12 @@ a {
     background-color: black;
 }
 
-#headline .swiper-pagination {
+#sec-1 #headline .swiper-pagination {
     position: relative;
     bottom: 1.5em;
 }
 
-#headline .col {
+#sec-1 #headline .col {
     display: flex;
     flex-direction: column;
     gap: 1.7em;
@@ -144,7 +143,7 @@ a {
     border-radius: 1em;
 }
 
-#headline .card-col {
+#sec-1 #headline .card-col {
     padding: 0em;
     flex-direction: row;
     width: 100%;
@@ -156,29 +155,29 @@ a {
     box-shadow: 5px 10px 18px grey;
 }
 
-#headline .card-body {
+#sec-1 #headline .card-body {
     align-items: start;
     padding: 0em 1em 0em 1em;
 }
 
-#headline .card:hover {
+#sec-1 #headline .card:hover {
     background-color: grey;
     /* opacity: 50%; */
 }
 
-#headline .card-text-date {
+#sec-1 #headline .card-text-date {
     margin: 0em;
     text-align: left;
     color: black;
 }
 
-#headline .card-text {
+#sec-1 #headline .card-text {
     font-weight: bold;
     text-align: left;
     color: black;
 }
 
-#headline .card-col img {
+#sec-1 #headline .card-col img {
     width: 6.25em;
     height: 100%;
     object-fit: cover;
@@ -187,7 +186,7 @@ a {
 }
 
 /* lastest */
-#lastest {
+/* #lastest {
     width: 100%;
     height: auto;
     justify-content: center;
@@ -319,7 +318,7 @@ a {
 #lastest .box-right .swiper-slide2 {
     width: 100%;
     height: 100%;
-}
+} */
 
 @media screen and (max-width: 1700px) {
     /* headline news */

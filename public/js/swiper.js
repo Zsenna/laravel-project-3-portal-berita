@@ -1,8 +1,8 @@
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper("#sec-2 .mySwiper", {
     loop: true,
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: "#sec-2 .swiper-button-next",
+        prevEl: "#sec-2 .swiper-button-prev",
     },
     breakpoints: {
         300: {
@@ -26,20 +26,20 @@ var swiper = new Swiper(".mySwiper", {
     keyboard: true,
 });
 
-var swiperheadline = new Swiper(".mySwiper1", {
+var swiperheadline = new Swiper("#sec-1 .mySwiper1", {
     loop: true,
     slidesPerView: 1,
     pagination: {
-        el: ".swiper-pagination",
+        el: "#sec-1 .swiper-pagination",
     },
     mousewheel: true,
     keyboard: true,
 });
 
-var swiperlastest = new Swiper(".mySwiper2", {
+var swiperlastest = new Swiper("#sec-3 .mySwiper2", {
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: "#sec-3 .swiper-button-next",
+        prevEl: "#sec-3 .swiper-button-prev",
     },
     breakpoints: {
         300: {
