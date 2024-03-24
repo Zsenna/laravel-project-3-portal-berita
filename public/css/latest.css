@@ -29,6 +29,10 @@
     right: 0;
     top: 0;
 }
+#sec-2 .card:hover,
+#sec-3 .card:hover {
+    background-color: rgba(128, 128, 128, 0.5);
+}
 
 .swiper-button-next,
 .swiper-button-prev {

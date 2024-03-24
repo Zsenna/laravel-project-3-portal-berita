@@ -162,8 +162,7 @@
 }
 
 #sec-1 #headline .card:hover {
-    background-color: grey;
-    /* opacity: 50%; */
+    background-color: rgba(128, 128, 128, 0.5);
 }
 
 #sec-1 #headline .card-text-date {
@@ -283,7 +282,7 @@
 }
 
 #lastest .card:hover {
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.5);
 }
 
 #lastest .card-text-date {
