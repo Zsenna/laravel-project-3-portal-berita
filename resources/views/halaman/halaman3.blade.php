@@ -17,9 +17,10 @@
         <!-- headline -->
         <section id="sec-1">
             <div id="headline" class="col align-self-center">
-                <div class="text-wrapper mb-5">
-                    <h1 class="tittle-headline">HEADLINE</h1>
-                    <img class="img-fluid" src="\image\headline\Vector 10.svg" alt="">
+                <div class="top d-flex align-items-center justify-content-between mb-3">
+                    <h3 class="pb-2">HEADLINE</h3>
+                    <div class="cta d-flex align-items-center justify-content-between">
+                    </div>
                 </div>
                 <div class="box">
                     <div class="row">

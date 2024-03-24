@@ -59,7 +59,7 @@
     height: 30.5em;
     border-radius: 0.5em;
     border: none;
-    box-shadow: 5px 10px 18px grey;
+    box-shadow: 5px 10px 18px rgba(128, 128, 128, 0.5);
 }
 
 #carousel .swiper-slide img {
@@ -118,7 +118,7 @@
     width: 65%;
     border-radius: 0.5em;
     background-color: white;
-    box-shadow: 5px 10px 18px grey;
+    box-shadow: 5px 10px 18px rgba(128, 128, 128, 0.5);
     border: none;
 }
 
@@ -153,7 +153,7 @@
     text-align: left;
     align-items: center;
     border: none;
-    box-shadow: 5px 10px 18px grey;
+    box-shadow: 5px 10px 18px rgba(128, 128, 128, 0.5);
 }
 
 #sec-1 #headline .card-body {
@@ -210,7 +210,7 @@
     position: relative;
     height: auto;
     border-radius: 0.5em;
-    box-shadow: 5px 10px 18px grey;
+    box-shadow: 5px 10px 18px rgba(128, 128, 128, 0.5);
 }
 
 #lastest .image-container img {
@@ -274,7 +274,7 @@
     text-align: left;
     align-items: center;
     border: none;
-    box-shadow: 5px 10px 18px grey;
+    box-shadow: 5px 10px 18px rgba(128, 128, 128, 0.5);
 }
 
 #lastest .card-body {

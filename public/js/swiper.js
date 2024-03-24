@@ -1,3 +1,31 @@
+var swiper = new Swiper("#carosel .mySwiper", {
+    loop: true,
+    navigation: {
+        nextEl: "#carosel .swiper-button-next",
+        prevEl: "#carosel .swiper-button-prev",
+    },
+    breakpoints: {
+        300: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        640: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+    },
+    mousewheel: true,
+    keyboard: true,
+});
+
 var swiperheadline = new Swiper("#sec-1 .mySwiper1", {
     centeredSlides: false,
     loop: true,
