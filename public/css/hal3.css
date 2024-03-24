@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-*#sec-1 {
+* {
     max-width: 100%;
 }
 
@@ -22,13 +22,12 @@
     font-size: 14px;
 }
 
-
 #sec-1 .col {
     margin-bottom: 3em;
 }
 
 /* trending */
-/* #carousel {
+#carousel {
     padding: 0em 5em 0em 5em;
     width: 100%;
 }
@@ -69,7 +68,7 @@
     height: 14.3em;
     object-fit: cover;
     border-radius: 0.5em;
-} */
+}
 
 /* .swiper-button-next,
 .swiper-button-prev {
@@ -89,7 +88,7 @@
 
 .swiper-button-prev {
     left: 90%;
-} */
+}
 
 /* headline */
 #sec-1 #headline {
@@ -128,7 +127,6 @@
     height: 28em;
     object-fit: cover;
     border-radius: 0.5em;
-    background-color: black;
 }
 
 #sec-1 #headline .swiper-pagination {
