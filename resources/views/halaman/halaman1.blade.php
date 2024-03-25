@@ -34,53 +34,61 @@
         <!-- end carousel -->
 
         <!-- headline news -->
-        <div id="headline" class="col align-self-center">
-            <div class="box">
-                <div class="row">
-                    <div class="image-container">
-                        <img class="img-fluid" src="" alt="">
-                        <div class="text-block">
-                            <h5 style="color: white;">Headline News</h5>
-                            <p style="color: white;">date</p>
-                            <p style="color: white;">description description description description description description description</p>
-                            <button class="button" type="submit">Read More</button>
-                        </div>
-                    </div>
-                    <div class="col" id="col">
-                        <div class="card">
-                            <img src="" class="card-img-left" alt="tes">
-                            <div class="card-body">
-                                <p class="card-text">Headline News 1</p>
+        <section id="sec-2">
+            <div id="headline" class="col align-self-center">
+                <div class="box">
+                    <div class="row">
+                        <div class="image-container">
+                            <img class="img-fluid" src="" alt="">
+                            <div class="text-block">
+                                <h5 style="color: white;">Headline News</h5>
+                                <p style="color: white;">date</p>
+                                <p style="color: white;">description description description description description description description</p>
+                                <button class="button" type="submit">Read More</button>
                             </div>
                         </div>
-                        <div class="card">
-                            <img src="" class="card-img-left" alt="tes">
-                            <div class="card-body">
-                                <p class="card-text">Headline News 2</p>
+                        <div class="col" id="col">
+                            <div class="card">
+                                <img src="" class="card-img-left" alt="tes">
+                                <div class="card-body">
+                                    <p class="card-text">Headline News 1</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card">
-                            <img src="" class="card-img-left" alt="tes">
-                            <div class="card-body">
-                                <p class="card-text">Headline News 3</p>
+                            <div class="card">
+                                <img src="" class="card-img-left" alt="tes">
+                                <div class="card-body">
+                                    <p class="card-text">Headline News 2</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card">
-                            <img src="" class="card-img-left" alt="tes">
-                            <div class="card-body">
-                                <p class="card-text">Headline News 4</p>
+                            <div class="card">
+                                <img src="" class="card-img-left" alt="tes">
+                                <div class="card-body">
+                                    <p class="card-text">Headline News 3</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card">
-                            <img src="" class="card-img-left" alt="tes">
-                            <div class="card-body">
-                                <p class="card-text">Headline News 5</p>
+                            <div class="card">
+                                <img src="" class="card-img-left" alt="tes">
+                                <div class="card-body">
+                                    <p class="card-text">Headline News 4</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="" class="card-img-left" alt="tes">
+                                <div class="card-body">
+                                    <p class="card-text">Headline News 5</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="" class="card-img-left" alt="tes">
+                                <div class="card-body">
+                                    <p class="card-text">Headline News 6</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- end headline news -->
 
         <!-- news -->
@@ -88,7 +96,28 @@
             <div class="box-news">
                 <div class="box-left">
                     News Spotlight Here >
-                    <div class="container-left row">
+                    <div class="container-left row" id="container-left">
+                        <div class="card col-4">
+                            <img src="" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                        <div class="card col-4">
+                            <img src="" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                        <div class="card col-4">
+                            <img src="" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
                         <div class="card col-4">
                             <img src="" class="card-img-top" alt="">
                             <div class="card-body">
@@ -121,7 +150,15 @@
                 </div>
                 <div class="box-right">
                     News Spotlight Here >
-                    <div class="container-right">
+                    <div class="container-right" id="container-right">
+                        <div class="card">
+                            <img src="" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <p class="card-date">date</p>
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
                         <div class="card">
                             <img src="" class="card-img-top" alt="">
                             <div class="card-body">

@@ -70,26 +70,27 @@ a {
 }
 
 /* headline news */
-#headline {
+#sec-2 #headline {
     width: 100%;
     height: auto;
     border-radius: 1em;
 }
 
-#headline .box {
+#sec-2 #headline .box {
     justify-content: center;
     display: flex;
     align-items: center;
     text-align: center;
 }
 
-#headline .row {
+#sec-2 #headline .row {
     width: 100%;
+    height: auto;
     border-radius: 1em;
     gap: 2em;
 }
 
-#headline .image-container {
+#sec-2 #headline .image-container {
     width: 100%;
     position: relative;
     width: auto;
@@ -97,7 +98,7 @@ a {
     /* background-color: aqua; */
 }
 
-#headline .text-block {
+#sec-2 #headline .text-block {
     border-radius: 1em;
     padding: 1em;
     width: 40%;
@@ -110,7 +111,7 @@ a {
     color: white;
 }
 
-#headline .button {
+#sec-2 #headline .button {
     text-decoration: none;
     width: 11.0656em;
     height: 3.615em;
@@ -118,7 +119,7 @@ a {
     background-color: white;
     border-radius: 1em;
 }
-#headline img {
+#sec-2 #headline img {
     width: 68.3125em;
     height: 38.435em;
     object-fit: cover;
@@ -126,13 +127,13 @@ a {
     border-radius: 0.5em;
 }
 
-#headline .col {
-    width: 20.5625em;
+#sec-2 #headline .col {
+    width: 100%;
     height: 7.6513em;
     border-radius: 1em;
 }
 
-#headline .card {
+#sec-2 #headline .card {
     padding-left: 1em;
     flex-direction: row;
     width: 100%;
@@ -142,16 +143,16 @@ a {
     border: none;
 }
 
-#headline .card:hover {
+#sec-2 #headline .card:hover {
     background-color: rgba(128, 128, 128, 0.5);
 }
 
-#headline .card-text {
+#sec-2 #headline .card-text {
     text-align: left;
     color: black;
 }
 
-#headline .card img {
+#sec-2 #headline .card img {
     width: 4.3513em;
     height: 5.8006em;
     object-fit: cover;
@@ -249,7 +250,7 @@ a {
 
 @media screen and (max-width: 1700px) {
     /* headline news */
-    #headline .row {
+    #sec-2 #headline .row {
         width: 100%;
         justify-content: center;
         display: center;
@@ -257,7 +258,7 @@ a {
         width: 100%;
     }
 
-    #headline img {
+    #sec-2 #headline img {
         width: 68.3125em;
         height: 38.435em;
         object-fit: cover;
@@ -265,12 +266,21 @@ a {
         border-radius: 0.5em;
     }
 
-    #headline .col {
+    #sec-2 #headline .col {
         margin: 0em;
         justify-content: center;
+        align-items: center;
         display: flex;
         width: 15em;
         height: 5em;
         flex-direction: row;
     }
+
+    #sec-2 #headline .card {
+        justify-content: center;
+        display: flex;
+        align-content: center;
+    }
+
+    /* news */
 }
