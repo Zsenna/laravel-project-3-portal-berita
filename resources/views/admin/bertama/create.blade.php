@@ -26,9 +26,9 @@
                                 <label for="floatingSelect" class="form-label">Kategori Berita</label>
                                 <select name="type" class="form-select" id="floatingSelect" aria-label="State">
                                     <option value="">...</option>
-                                    <option value="welding">Kat1</option>
-                                    <option value="welding">Kat2</option>
-                                    <option value="welding">Kat3</option>
+                                    <option value="kat1">Kat1</option>
+                                    <option value="kat2">Kat2</option>
+                                    <option value="kat3">Kat3</option>
                                 </select>
                             </div>
                             <div class="col-md-6 mb-3">

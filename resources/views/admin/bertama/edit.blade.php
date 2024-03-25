@@ -10,6 +10,7 @@
                 <div class="card-body">
                     <form method="post" action="{{ route('bertama.update', $bertama->id) }}" enctype="multipart/form-data">
                         @csrf
+                        @method('put')
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Title</label>
                             <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
@@ -26,9 +27,9 @@
                                 <label for="floatingSelect" class="form-label">Kategori Berita</label>
                                 <select name="type" class="form-select" id="floatingSelect" aria-label="State">
                                     <option value="{{ $bertama->type }}">{{ $bertama->type }}</option>
-                                    <option value="welding">Kat1</option>
-                                    <option value="welding">Kat2</option>
-                                    <option value="welding">Kat3</option>
+                                    <option value="kat1">Kat1</option>
+                                    <option value="kat2">Kat2</option>
+                                    <option value="kat3">Kat3</option>
                                 </select>
                             </div>
                             <div class="col-md-6 mb-3">

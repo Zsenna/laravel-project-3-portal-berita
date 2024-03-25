@@ -4,6 +4,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BeritaUtamaController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\HighlightController;
+use App\Http\Controllers\HomeController;
 use App\Models\BertamaImage;
 use Illuminate\Support\Facades\Route;
 
@@ -18,21 +19,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('halaman/halaman1');
-});
-
-Route::get('/halaman1', function () {
-    return view('halaman/halaman1');
-});
-
-Route::get('/halaman2', function () {
-    return view('halaman/halaman2');
-});
-
-Route::get('/halaman3', function () {
-    return view('halaman/halaman3');
-});
+Route::get('/', [HomeController::class, 'index']);
+Route::get('/halaman2', [HomeController::class, 'hal2']);
+Route::get('/halaman3', [HomeController::class, 'hal3']);
 
 Route::get('/header', function () {
     return view('layouts/header');

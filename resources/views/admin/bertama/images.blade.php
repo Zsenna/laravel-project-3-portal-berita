@@ -55,9 +55,9 @@
                                             <div class="images-links">
                                                 <a href="/bertama_image/{{ $image->image }}" target="_blank"
                                                     data-gallery="imagesGallery" class="images-lightbox"
-                                                    title="{{ $image->title }}"><i class="bx bx-plus"></i></a>
+                                                    title="{{ $image->title }}"><i class="ti ti-plus"></i></a>
                                                 <a href="/bertama/remove-img/{{ $image->id }}" title="Delete"><i
-                                                        class="bx bx-trash"></i></a>
+                                                        class="ti ti-trash"></i></a>
                                             </div>
                                         </div>
                                     </div>
