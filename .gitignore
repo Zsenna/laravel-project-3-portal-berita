@@ -3,6 +3,8 @@
 /public/build
 /public/hot
 /public/storage
+/public/bertama_thumb
+/public/bertama_image
 /storage/*.key
 /vendor
 .env

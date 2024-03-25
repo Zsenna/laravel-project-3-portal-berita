@@ -87,7 +87,7 @@ class BeritaUtamaController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, BeritaUtama $beritaUtama)
+    public function update(Request $request, BeritaUtama $bertama)
     {
         $request->validate([
             'title' => 'required',
@@ -106,7 +106,7 @@ class BeritaUtamaController extends Controller
             unset($input['thumb']);
         }
 
-        $beritaUtama->update($input);
+        $bertama->update($input);
 
         return redirect('/bertama')->with('message', 'Data successfully edited')->with('titlePage', 'Add Portfolio');
     }
