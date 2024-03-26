@@ -28,7 +28,7 @@
                             <div class="swiper mySwiper1">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <img src="\image\headline\bigpic.svg" class="card-img-top" alt="">
+                                        <img src="\image\headline\Link - link description → berpacu-lawan-waktu-selamatkan-korban-gempa-di-jepang-5_43.jpeg.svg" class="card-img-top" alt="">
                                         <div class="card-body">
                                             <h5 class="card-title">Jumlah Korban Tewas Gempa Jepang Bertambah Lagi Jadi 110
                                                 Orang</h5>
@@ -179,7 +179,7 @@
                         <div class="swiper-button-prev"></div>
                     </div>
                 </div>
-                <div class="swiper mySwiper" id="swiper">
+                <div class="swiper mySwiper">
                     <div class="swiper-wrapper position-relative">
                         @foreach ($data as $berita)
                             <div class="col-4 swiper-slide">
