@@ -53,13 +53,13 @@
                 </div>
             </div>
             <div
-                class="sosmed d-flex align-items-center justify-content-end position-absolute top-50 end-0 translate-middle-y">
-                <div class="icons">
+                class="sosmed d-flex align-items-center justify-content-evenly position-absolute top-50 end-0 translate-middle-y">
+                <div class="icons pe-2" style="height: 100%">
                     <a href="" class="d-block"><i class="bi bi-twitter"></i></a>
                     <a href="" class="d-block"><i class="bi bi-youtube"></i></a>
                     <a href="" class="d-block"><i class="bi bi-instagram"></i></a>
                 </div>
-                <h5 class="foll">- - -- Follow Us</h5>
+                <img src="images/foll.svg" alt="">
             </div>
         </div>
     </header>
