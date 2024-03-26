@@ -2,13 +2,21 @@
 
 @push('halaman2css')
 <link rel="stylesheet" href="css/halaman2.css">
+
+<style>
+
+    .bd {
+        border: 2px solid red
+    }
+
+</style>
 @endpush
 
 @section('content')
-<section>
-    <div class="d-flex">
+<section id="dberita">
+    <div class="d-flex px-5">
         <!-- LEFT SIDE DIV -->
-        <div class="left-side container-fluid col-md-9 col-12 ps-5 p-2">
+        <div class="left-side container-fluid col-md-9 col-12 p-2 me-4">
             <div class="berita mb-5">
                 <img src="https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg"
                     class="rounded mb-3" alt="...">
@@ -63,105 +71,91 @@
             <h3>More News</h3>
             <div class="more-news d-flex flex-wrap justify-content-evenly align-items-center">
                 <!-- CARD -->
-                <div class="wrap mb-4 p-3">
+                <div class="wrap mb-4 p-3" style="width: 14em">
                     <div class="image-wrap rounded"
                         style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                     </div>
                     <div class="card-body">
                         <div class="detail">15 May 2024 8:00 AM</div>
-                        <h5 class="card-title">Lorem, ipsum.</h5>
-                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+                        <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde?</h5>
+                        <p class="card-text" style="height: 8em; overflow: hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
                             expedita esse quo perspiciatis consequuntur voluptatem!</p>
                     </div>
                 </div>
-
-                <!-- CARD -->
-                <div class="wrap mb-4 p-3">
+                <div class="wrap mb-4 p-3" style="width: 14em">
                     <div class="image-wrap rounded"
                         style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                     </div>
                     <div class="card-body">
                         <div class="detail">15 May 2024 8:00 AM</div>
-                        <h5 class="card-title mb-1">Lorem, ipsum.</h5>
-                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+                        <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde?</h5>
+                        <p class="card-text" style="height: 8em; overflow: hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
                             expedita esse quo perspiciatis consequuntur voluptatem!</p>
                     </div>
                 </div>
-
-                <!-- CARD -->
-                <div class="wrap mb-4 p-3">
+                <div class="wrap mb-4 p-3" style="width: 14em">
                     <div class="image-wrap rounded"
                         style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                     </div>
                     <div class="card-body">
                         <div class="detail">15 May 2024 8:00 AM</div>
-                        <h5 class="card-title mb-1">Lorem, ipsum.</h5>
-                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+                        <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde?</h5>
+                        <p class="card-text" style="height: 8em; overflow: hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
                             expedita esse quo perspiciatis consequuntur voluptatem!</p>
                     </div>
                 </div>
-
-                <!-- CARD -->
-                <div class="wrap mb-4 p-3">
+                <div class="wrap mb-4 p-3" style="width: 14em">
                     <div class="image-wrap rounded"
                         style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                     </div>
                     <div class="card-body">
                         <div class="detail">15 May 2024 8:00 AM</div>
-                        <h5 class="card-title mb-1">Lorem, ipsum.</h5>
-                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+                        <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde?</h5>
+                        <p class="card-text" style="height: 8em; overflow: hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
                             expedita esse quo perspiciatis consequuntur voluptatem!</p>
                     </div>
                 </div>
-
-                <!-- CARD -->
-                <div class="wrap mb-4 p-3">
+                <div class="wrap mb-4 p-3" style="width: 14em">
                     <div class="image-wrap rounded"
                         style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                     </div>
                     <div class="card-body">
                         <div class="detail">15 May 2024 8:00 AM</div>
-                        <h5 class="card-title mb-1">Lorem, ipsum.</h5>
-                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+                        <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde?</h5>
+                        <p class="card-text" style="height: 8em; overflow: hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
                             expedita esse quo perspiciatis consequuntur voluptatem!</p>
                     </div>
                 </div>
-
-                <!-- CARD -->
-                <div class="wrap mb-4 p-3">
+                <div class="wrap mb-4 p-3" style="width: 14em">
                     <div class="image-wrap rounded"
                         style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                     </div>
                     <div class="card-body">
                         <div class="detail">15 May 2024 8:00 AM</div>
-                        <h5 class="card-title mb-1">Lorem, ipsum.</h5>
-                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+                        <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde?</h5>
+                        <p class="card-text" style="height: 8em; overflow: hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
                             expedita esse quo perspiciatis consequuntur voluptatem!</p>
                     </div>
                 </div>
-
-                <!-- CARD -->
-                <div class="wrap mb-4 p-3">
+                <div class="wrap mb-4 p-3" style="width: 14em">
                     <div class="image-wrap rounded"
                         style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                     </div>
                     <div class="card-body">
                         <div class="detail">15 May 2024 8:00 AM</div>
-                        <h5 class="card-title mb-1">Lorem, ipsum.</h5>
-                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+                        <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde?</h5>
+                        <p class="card-text" style="height: 8em; overflow: hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
                             expedita esse quo perspiciatis consequuntur voluptatem!</p>
                     </div>
                 </div>
-
-                <!-- CARD -->
-                <div class="wrap mb-4 p-3">
+                <div class="wrap mb-4 p-3" style="width: 14em">
                     <div class="image-wrap rounded"
                         style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                     </div>
                     <div class="card-body">
                         <div class="detail">15 May 2024 8:00 AM</div>
-                        <h5 class="card-title mb-1">Lorem, ipsum.</h5>
-                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+                        <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde?</h5>
+                        <p class="card-text" style="height: 8em; overflow: hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
                             expedita esse quo perspiciatis consequuntur voluptatem!</p>
                     </div>
                 </div>
@@ -173,60 +167,51 @@
         <div class="right-side container-fluid p-2 col-md-3 col-0">
             <h3 class="">More News</h3>
             <!-- CARD -->
-            <div class="wrap d-flex mb-4" style="width: 100%;">
+            <div class="wrap d-flex my-5" style="height: 6.5em; overflow: hidden">
                 <div class="image-wrap rounded"
                     style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                 </div>
-                <div class="card-body ps-1">
-                    <h5 class="card-title">Lorem, ipsum.</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                <div class="card-body ps-2" style="width: 3em">
+                    <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem, ipsum. Lorem, ipsum dolor. Lorem ipsum dolor sit.</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sed optio laudantium, iure suscipit quidem?</p>
                 </div>
             </div>
-
-            <!-- CARD -->
-            <div class="wrap d-flex mb-4" style="width: 100%;">
+            <div class="wrap d-flex my-5" style="height: 6.5em; overflow: hidden">
                 <div class="image-wrap rounded"
                     style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                 </div>
-                <div class="card-body ps-1">
-                    <h5 class="card-title">Lorem, ipsum.</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                <div class="card-body ps-2" style="width: 3em">
+                    <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem, ipsum. Lorem, ipsum dolor. Lorem ipsum dolor sit.</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sed optio laudantium, iure suscipit quidem?</p>
                 </div>
             </div>
-
-            <!-- CARD -->
-            <div class="wrap d-flex mb-4" style="width: 100%;">
+            <div class="wrap d-flex my-5" style="height: 6.5em; overflow: hidden">
                 <div class="image-wrap rounded"
                     style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                 </div>
-                <div class="card-body ps-1">
-                    <h5 class="card-title">Lorem, ipsum.</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                <div class="card-body ps-2" style="width: 3em">
+                    <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem, ipsum. Lorem, ipsum dolor. Lorem ipsum dolor sit.</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sed optio laudantium, iure suscipit quidem?</p>
                 </div>
             </div>
-
-            <!-- CARD -->
-            <div class="wrap d-flex mb-4" style="width: 100%;">
+            <div class="wrap d-flex my-5" style="height: 6.5em; overflow: hidden">
                 <div class="image-wrap rounded"
                     style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                 </div>
-                <div class="card-body ps-1">
-                    <h5 class="card-title">Lorem, ipsum.</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                <div class="card-body ps-2" style="width: 3em">
+                    <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem, ipsum. Lorem, ipsum dolor. Lorem ipsum dolor sit.</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sed optio laudantium, iure suscipit quidem?</p>
                 </div>
             </div>
-
-            <!-- CARD -->
-            <div class="wrap d-flex mb-4" style="width: 100%;">
+            <div class="wrap d-flex my-5" style="height: 6.5em; overflow: hidden">
                 <div class="image-wrap rounded"
                     style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                 </div>
-                <div class="card-body ps-1">
-                    <h5 class="card-title">Lorem, ipsum.</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                <div class="card-body ps-2" style="width: 3em">
+                    <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem, ipsum. Lorem, ipsum dolor. Lorem ipsum dolor sit.</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sed optio laudantium, iure suscipit quidem?</p>
                 </div>
             </div>
-
         </div>
 </section>
 @endsection

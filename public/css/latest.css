@@ -50,15 +50,22 @@
     padding: 0 1rem;
 }
 
+#sec-2 .item {
+    width: 25vw;
+}
+
+#sec-2 .image-wrap {
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height: 17vw;
+}
+
 #sec-2 .cat {
     padding: 0.2rem 0.5rem;
     margin-right: 10%;
     background-color: #f5a623;
     color: white;
-}
-
-#sec-2 .item img {
-    height: 15rem;
 }
 
 /* SEC-3 */
@@ -130,10 +137,6 @@
         font-size: 70%;
     }
 
-    #sec-2 .item img {
-        height: 10rem;
-    }
-
     #sec-2 .card-title {
         font-size: 100%;
     }
@@ -159,10 +162,6 @@
 
     #sec-2 .card-body {
         padding: 0.1rem;
-    }
-
-    #sec-2 .item img {
-        height: 6rem;
     }
 
     #sec-3 .cta,
@@ -191,6 +190,14 @@
 }
 
 @media screen and (max-width: 450px) {
+    #sec-2 .item {
+        width: 38vw;
+    }
+    
+    #sec-2 .image-wrap {
+        height: 30vw;
+    }
+
     #sec-3 .left {
         font-size: smaller;
         height: 15vh;
@@ -202,9 +209,5 @@
 
     #sec-2 .item {
         font-size: 50%;
-    }
-
-    #sec-2 .item img {
-        height: 4rem;
     }
 }
