@@ -68,6 +68,16 @@
                 <div class="box-left">
                     News Spotlight Here >
                     <div class="container-left row">
+                        @foreach ($data1 as $berita)
+                            <div class="card col-4">
+                                <img src="" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        @endforeach
                         <div class="card col-4">
                             <img src="" class="card-img-top" alt="">
                             <div class="card-body">
@@ -81,6 +91,18 @@
                 <div class="box-right">
                     News Spotlight Here >
                     <div class="container-right">
+                        @foreach ($data1 as $berita)
+                            <div class="card">
+                                <img src="" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <p class="card-date">date</p>
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        @endforeach
                         <div class="card">
                             <img src="" class="card-img-top" alt="">
                             <div class="card-body">
