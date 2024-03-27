@@ -28,12 +28,39 @@
                             <div class="swiper mySwiper1">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
+<<<<<<< Updated upstream
                                         <img src="\image\headline\Link - link description → berpacu-lawan-waktu-selamatkan-korban-gempa-di-jepang-5_43.jpeg.svg" class="card-img-top" alt="">
                                         <div class="card-body">
                                             <h5 class="card-title">Jumlah Korban Tewas Gempa Jepang Bertambah Lagi Jadi 110
                                                 Orang</h5>
                                             <p class="card-date">15 May 2020 8:00 am</p>
                                             <p class="card-text">Korban tewas gempa Jepang bertambah lagi jadi 110 orang,
+=======
+                                        <img src="\image\headline\Link - link description → berpacu-lawan-waktu-selamatkan-korban-gempa-di-jepang-5_43.jpeg.svg"
+                                            class="card-img-top img-left" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title tittle-left">Jumlah Korban Tewas Gempa Jepang Bertambah
+                                                Lagi Jadi 110
+                                                Orang</h5>
+                                            <p class="card-date"><i class="bi bi-clock">
+                                                </i>15 May 2020 8:00 am</p>
+                                            <p class="card-text desc-left">Korban tewas gempa Jepang bertambah lagi jadi 110
+                                                orang,
+                                                210 orang lainnya masih dinyatakan hilang.</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="\image\headline\Link - link description → berpacu-lawan-waktu-selamatkan-korban-gempa-di-jepang-5_43.jpeg.svg"
+                                            class="card-img-top" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title tittle-left">Jumlah Korban Tewas Gempa Jepang Bertambah
+                                                Lagi Jadi 110
+                                                Orang</h5>
+                                            <p class="card-date"><i class="bi bi-clock">
+                                                </i>15 May 2020 8:00 am</p>
+                                            <p class="card-text desc-left">Korban tewas gempa Jepang bertambah lagi jadi 110
+                                                orang,
+>>>>>>> Stashed changes
                                                 210 orang lainnya masih dinyatakan hilang.</p>
                                         </div>
                                     </div>
@@ -42,9 +69,16 @@
                                             <img src="/bertama_thumb/{{ $berita->thumb }}" class="card-img-top"
                                                 alt="">
                                             <div class="card-body">
+<<<<<<< Updated upstream
                                                 <h5 class="card-title">{{ $berita->title }}</h5>
                                                 <p class="card-date">{{ $berita->created_at }}</p>
                                                 <p class="card-text">{{ $berita->description }}.</p>
+=======
+                                                <h5 class="card-title tittle-left">{{ $berita->title }}</h5>
+                                                <p class="card-date"><i class="bi bi-clock">
+                                                    </i>{{ $berita->created_at }}</p>
+                                                <p class="card-text desc-left">{{ $berita->description }}.</p>
+>>>>>>> Stashed changes
                                             </div>
                                         </div>
                                     @endforeach
@@ -59,8 +93,14 @@
                                 <div class="card card-col">
                                     <img src="/bertama_thumb/{{ $berita->thumb }}" class="card-img-left" alt="">
                                     <div class="card-body">
+<<<<<<< Updated upstream
                                         <p class="card-text-date">{{ $berita->created_at }}</p>
                                         <p class="card-text">{{ $berita->title }}</p>
+=======
+                                        <p class="card-text-date"><i class="bi bi-clock">
+                                            </i>{{ $berita->created_at }}</p>
+                                        <p class="card-text desc-right">{{ $berita->title }}</p>
+>>>>>>> Stashed changes
                                     </div>
                                 </div>
                             @endforeach
@@ -179,22 +219,42 @@
                         <div class="swiper-button-prev"></div>
                     </div>
                 </div>
+<<<<<<< Updated upstream
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper position-relative">
                         @foreach ($data as $berita)
                             <div class="col-4 swiper-slide">
                                 <div class="item rounded card container-lg p-0 shadow" style="width: 100%;">
                                     <img src="/bertama_thumb/{{ $berita->thumb }}" width="100%" class="rounded">
+=======
+                <div class="swiper mySwiper container-fluid">
+                    <div class="swiper-wrapper position-relative d-flex align-items-center">
+                        {{-- CARD --}}
+                        @foreach ($data as $berita)
+                            <div class="swiper-slide">
+                                <div class="item rounded card container-lg p-0 shadow">
+                                    <div class="image-wrap rounded">
+                                        <img class="img-fluid rounded" src="/bertama_thumb/{{ $berita->thumb }}">
+                                    </div>
+>>>>>>> Stashed changes
                                     <div class="card-body">
                                         <p class="info"><span class="cat rounded">{{ $berita->type }}</span><i
                                                 class="bi bi-clock">
                                             </i>{{ $berita->created_at }}</p>
+<<<<<<< Updated upstream
                                         <h5 class="card-title">{{ $berita->title }}</h5>
                                         <p class="card-text">{{ $berita->description }}</p>
+=======
+                                        <h5 class="card-title" style="height: 2.8em; overflow: hidden">{{ $berita->title }}
+                                        </h5>
+                                        <p class="card-text" style="height: 5em; overflow: hidden">
+                                            {{ $berita->description }}</p>
+>>>>>>> Stashed changes
                                     </div>
                                 </div>
                             </div>
                         @endforeach
+<<<<<<< Updated upstream
                         <div class="col-4 swiper-slide">
                             <div class="item rounded card container-lg p-0 shadow" style="width: 100%;">
                                 <img src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg"
@@ -204,11 +264,27 @@
                                         </i>08.12.2022</p>
                                     <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the
+=======
+                        <div class="swiper-slide">
+                            <div class="item rounded card container-lg p-0 shadow">
+                                <div class="image-wrap rounded">
+                                    <img class="img-fluid rounded"
+                                        src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <p class="info"><span class="cat rounded">Tech</span><i class="bi bi-clock">
+                                        </i>08.12.2022</p>
+                                    <h5 class="card-title trend-tittle">Lorem ipsum dolor sit amet consectetur adipisicing.
+                                    </h5>
+                                    <p class="card-text trend-desc">Some quick example text to build on the card title and
+                                        make up the
+>>>>>>> Stashed changes
                                         bulk
                                         of the card's content.</p>
                                 </div>
                             </div>
                         </div>
+<<<<<<< Updated upstream
                         <div class="col-4 swiper-slide">
                             <div class="item rounded card container-lg p-0 shadow" style="width: 100%;">
                                 <img src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg"
@@ -218,11 +294,27 @@
                                         </i>08.12.2022</p>
                                     <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the
+=======
+                        <div class="swiper-slide">
+                            <div class="item rounded card container-lg p-0 shadow">
+                                <div class="image-wrap rounded">
+                                    <img class="img-fluid rounded"
+                                        src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <p class="info"><span class="cat rounded">Tech</span><i class="bi bi-clock">
+                                        </i>08.12.2022</p>
+                                    <h5 class="card-title" style="height: 2.8em; overflow: hidden">Lorem ipsum dolor sit
+                                        amet consectetur adipisicing.</h5>
+                                    <p class="card-text" style="height: 5em; overflow: hidden">Some quick example text to
+                                        build on the card title and make up the
+>>>>>>> Stashed changes
                                         bulk
                                         of the card's content.</p>
                                 </div>
                             </div>
                         </div>
+<<<<<<< Updated upstream
                         <div class="col-4 swiper-slide">
                             <div class="item rounded card container-lg p-0 shadow" style="width: 100%;">
                                 <img src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg"
@@ -232,11 +324,27 @@
                                         </i>08.12.2022</p>
                                     <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the
+=======
+                        <div class="swiper-slide">
+                            <div class="item rounded card container-lg p-0 shadow">
+                                <div class="image-wrap rounded">
+                                    <img class="img-fluid rounded"
+                                        src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <p class="info"><span class="cat rounded">Tech</span><i class="bi bi-clock">
+                                        </i>08.12.2022</p>
+                                    <h5 class="card-title" style="height: 2.8em; overflow: hidden">Lorem ipsum dolor sit
+                                        amet consectetur adipisicing.</h5>
+                                    <p class="card-text" style="height: 5em; overflow: hidden">Some quick example text to
+                                        build on the card title and make up the
+>>>>>>> Stashed changes
                                         bulk
                                         of the card's content.</p>
                                 </div>
                             </div>
                         </div>
+<<<<<<< Updated upstream
                         <div class="col-4 swiper-slide">
                             <div class="item rounded card container-lg p-0 shadow" style="width: 100%;">
                                 <img src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg"
@@ -246,11 +354,27 @@
                                         </i>08.12.2022</p>
                                     <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the
+=======
+                        <div class="swiper-slide">
+                            <div class="item rounded card container-lg p-0 shadow">
+                                <div class="image-wrap rounded">
+                                    <img class="img-fluid rounded"
+                                        src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <p class="info"><span class="cat rounded">Tech</span><i class="bi bi-clock">
+                                        </i>08.12.2022</p>
+                                    <h5 class="card-title" style="height: 2.8em; overflow: hidden">Lorem ipsum dolor sit
+                                        amet consectetur adipisicing.</h5>
+                                    <p class="card-text" style="height: 5em; overflow: hidden">Some quick example text to
+                                        build on the card title and make up the
+>>>>>>> Stashed changes
                                         bulk
                                         of the card's content.</p>
                                 </div>
                             </div>
                         </div>
+<<<<<<< Updated upstream
                         <div class="col-4 swiper-slide">
                             <div class="item rounded card container-lg p-0 shadow" style="width: 100%;">
                                 <img src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg"
@@ -260,6 +384,21 @@
                                         </i>08.12.2022</p>
                                     <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the
+=======
+                        <div class="swiper-slide">
+                            <div class="item rounded card container-lg p-0 shadow">
+                                <div class="image-wrap rounded">
+                                    <img class="img-fluid rounded"
+                                        src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <p class="info"><span class="cat rounded">Tech</span><i class="bi bi-clock">
+                                        </i>08.12.2022</p>
+                                    <h5 class="card-title" style="height: 2.8em; overflow: hidden">Lorem ipsum dolor sit
+                                        amet consectetur adipisicing.</h5>
+                                    <p class="card-text desc-right" style="height: 5em; overflow: hidden">Some quick
+                                        example text to build on the card title and make up the
+>>>>>>> Stashed changes
                                         bulk
                                         of the card's content.</p>
                                 </div>
@@ -407,6 +546,19 @@
                             <p class="date"><i class="bi bi-clock"> </i>74 - Olarius - 3339</p>
                             <h5 class="title">She Sets Up High</h5>
                         </div>
+<<<<<<< Updated upstream
+=======
+                        <div class="item position-relative rounded mb-3 shadow col-4 col-sm-12"
+                            style="background-image: url('https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/band-oasis.jpg');">
+                            <p class="date"><i class="bi bi-clock"> </i>74 - Olarius - 3339</p>
+                            <h5 class="title">She Sets Up High</h5>
+                        </div>
+                        <div class="item position-relative rounded mb-3 shadow col-4 col-sm-12"
+                            style="background-image: url('https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/band-oasis.jpg');">
+                            <p class="date"><i class="bi bi-clock"> </i>74 - Olarius - 3339</p>
+                            <h5 class="title">She Sets Up High</h5>
+                        </div>
+>>>>>>> Stashed changes
                         <div class="item position-relative rounded mb-3 shadow col-4 col-sm-12"
                             style="background-image: url('https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/band-oasis.jpg');">
                             <p class="date"><i class="bi bi-clock"> </i>74 - Olarius - 3339</p>
@@ -435,7 +587,12 @@
                                     </div>
                                     <div class="detail ps-2" style="width: 70%; font-size: smaller;">
                                         <p class="m-0"><i class="bi bi-clock"> </i>09.14.7742</p>
+<<<<<<< Updated upstream
                                         <p class="fw-bold m-0">Thailand makes it mandatory for tourists to stay</p>
+=======
+                                        <p class="fw-bold m-0 tittle-right">Thailand makes it mandatory for tourists to
+                                            stay</p>
+>>>>>>> Stashed changes
                                     </div>
                                 </div>
                                 <div class="item d-flex align-items-center justify-content-evenly mb-3 rounded shadow">

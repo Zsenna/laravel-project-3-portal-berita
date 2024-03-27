@@ -40,9 +40,16 @@
                         <div class="image-container">
                             <img class="img-fluid" src="bertama_thumb/{{ $data->thumb }}" alt="">
                             <div class="text-block">
+<<<<<<< Updated upstream
                                 <h5 style="color: white;">{{ $data->title }}</h5>
                                 <p style="color: white;">{{ $data->create_at }}</p>
                                 <p style="color: white;">{{ $data->description }}</p>
+=======
+                                <h5 class="headtittle" style="color: white;">{{ $data->title }}</h5>
+                                <p style="color: white;"><i class="bi bi-clock">
+                                    </i>{{ $data->create_at }}</p>
+                                <p class="headtext" style="color: white;">{{ $data->description }}</p>
+>>>>>>> Stashed changes
                                 <button class="button" type="submit">Read More</button>
                             </div>
                         </div>
@@ -81,7 +88,12 @@
                             <img src="" class="card-img-top" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
+<<<<<<< Updated upstream
                                 <p class="card-text">Some quick example text to build on the card title and make up the
+=======
+                                <p class="card-text desc-left">Some quick example text to build on the card title and make
+                                    up the
+>>>>>>> Stashed changes
                                     bulk of the card's content.</p>
                             </div>
                         </div>
@@ -94,18 +106,33 @@
                             <div class="card">
                                 <img src="/bertama_thumb/{{ $berita->thumb }}" class="card-img-top" alt="">
                                 <div class="card-body">
+<<<<<<< Updated upstream
                                     <p class="card-date">{{ $berita->create_at }}</p>
                                     <h5 class="card-title">{{ $berita->title }}</h5>
                                     <p class="card-text">{{ $berita->description }}</p>
+=======
+                                    <p class="card-date"><i class="bi bi-clock">
+                                        </i>{{ $berita->created_at }}</p>
+                                    <h5 class="card-title tittle-right">{{ $berita->title }}</h5>
+                                    <p class="card-text desc-right">{{ $berita->description }}</p>
+>>>>>>> Stashed changes
                                 </div>
                             </div>
                         @endforeach
                         <div class="card">
                             <img src="" class="card-img-top" alt="">
                             <div class="card-body">
+<<<<<<< Updated upstream
                                 <p class="card-date">date</p>
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
+=======
+                                <p class="card-date"><i class="bi bi-clock">
+                                    </i>date</p>
+                                <h5 class="card-title tittle-right">Card title</h5>
+                                <p class="card-text desc-right">Some quick example text to build on the card title and make
+                                    up the
+>>>>>>> Stashed changes
                                     bulk of the card's content.</p>
                             </div>
                         </div>

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
 * {
     max-width: 100%;
 }
@@ -129,6 +130,13 @@
     border-radius: 0.5em;
 }
 
+#sec-1 #headline .col .card-img-left {
+    width: 6.25em;
+    height: 5.3em;
+    object-fit: cover;
+    border-radius: 0.5em;
+}
+
 #sec-1 #headline .swiper-pagination {
     position: relative;
     bottom: 1.5em;
@@ -172,17 +180,24 @@
 }
 
 #sec-1 #headline .card-text {
-    font-weight: bold;
     text-align: left;
     color: black;
 }
 
+<<<<<<< Updated upstream
 #sec-1 #headline .card-col img {
     width: 6.25em;
     height: 100%;
     object-fit: cover;
     background-color: black;
     border-radius: 0.5em;
+=======
+#sec-1 #headline .desc-right {
+    width: 21em;
+    height: 3em;
+    overflow: hidden;
+    font-weight: bold;
+>>>>>>> Stashed changes
 }
 
 /* lastest */
@@ -321,6 +336,7 @@
 } */
 
 @media screen and (max-width: 1700px) {
+
     /* headline news */
     #headline .row {
         width: 100%;

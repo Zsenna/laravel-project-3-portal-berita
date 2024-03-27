@@ -39,6 +39,14 @@ class HomeController extends Controller
         return view('halaman.halaman3', compact('data', 'data3', 'data6'));
     }
 
+    public function detail($id)
+    {
+        $berita = BeritaUtama::find($id);
+        if (!$berita) abort(404);
+        $images = $berita->images;
+        return view('halaman.halaman2', compact('berita', 'images')); //jd yg dlm compact ini adalah variabel yg akan di bawa ke halaman detailsPorto.blade
+    }
+
     /**
      * Show the form for creating a new resource.
      */

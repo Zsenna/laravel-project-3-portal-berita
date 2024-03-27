@@ -22,6 +22,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/halaman2', [HomeController::class, 'hal2']);
 Route::get('/halaman3', [HomeController::class, 'hal3']);
+Route::get('/detail/{id}', [HomeController::class, 'detail'])->name('pages.detailsPorto');
 
 Route::get('/header', function () {
     return view('layouts/header');
