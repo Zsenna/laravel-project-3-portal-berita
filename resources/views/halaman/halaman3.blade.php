@@ -389,7 +389,7 @@
                     </div>
                 </div>
                 <div class="wrap position-relative ps-4 row">
-                    <div class="left col-12 col-md-4 col-sm-6 row">
+                    <div class="left col-12 col-md-4 col-sm-6 row" id="latescol">
                         @foreach ($data3 as $berita)
                             <div class="item position-relative rounded mb-3 shadow col-4 col-sm-12"
                                 style="background-image: url('/bertama_thumb/{{ $berita->thumb }}');">
@@ -398,6 +398,16 @@
                             </div>
                         @endforeach
                         <div class="item position-relative rounded mb-3 shadow col-4 col-sm-12"
+                            style="background-image: url('https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/band-oasis.jpg');">
+                            <p class="date"><i class="bi bi-clock"> </i>74 - Olarius - 3339</p>
+                            <h5 class="title">She Sets Up High</h5>
+                        </div>
+                         <div class="item position-relative rounded mb-3 shadow col-4 col-sm-12"
+                            style="background-image: url('https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/band-oasis.jpg');">
+                            <p class="date"><i class="bi bi-clock"> </i>74 - Olarius - 3339</p>
+                            <h5 class="title">She Sets Up High</h5>
+                        </div>
+                         <div class="item position-relative rounded mb-3 shadow col-4 col-sm-12"
                             style="background-image: url('https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/band-oasis.jpg');">
                             <p class="date"><i class="bi bi-clock"> </i>74 - Olarius - 3339</p>
                             <h5 class="title">She Sets Up High</h5>
