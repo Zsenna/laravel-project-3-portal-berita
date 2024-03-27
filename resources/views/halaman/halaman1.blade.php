@@ -74,7 +74,7 @@
                             <div class="card col-4">
                                 <img src="/bertama_thumb/{{ $berita->thumb }}" class="card-img-top" alt="">
                                 <div class="card-body">
-                                    <h5 class="card-title">{{ $berita->title }}</h5>
+                                    <h5 class="card-title tittle-left">{{ $berita->title }}</h5>
                                     <p class="card-text desc-left">{{ $berita->description }}</p>
                                 </div>
                             </div>
@@ -84,11 +84,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text desc-left">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.newsnewsSome quick example text to build on the card title and make up the
-                                    bulk of the card's content.newsnewsSome quick example text to build on the card title and make up the
-                                    bulk of the card's content.newsnewsSome quick example text to build on the card title and make up the
-                                    bulk of the card's content.newsnewsSome quick example text to build on the card title and make up the
-                                    bulk of the card's content.newsnews</p>
+                                    bulk of the card's content.</p>
                             </div>
                         </div>
                     </div>
@@ -100,7 +96,8 @@
                             <div class="card">
                                 <img src="/bertama_thumb/{{ $berita->thumb }}" class="card-img-top" alt="">
                                 <div class="card-body">
-                                    <p class="card-date">{{ $berita->create_at }}</p>
+                                    <p class="card-date"><i class="bi bi-clock">
+                                            </i>{{ $berita->create_at }}</p>
                                     <h5 class="card-title">{{ $berita->title }}</h5>
                                     <p class="card-text desc-right">{{ $berita->description }}</p>
                                 </div>
@@ -109,9 +106,10 @@
                         <div class="card">
                             <img src="" class="card-img-top" alt="">
                             <div class="card-body">
-                                <p class="card-date">date</p>
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-date"><i class="bi bi-clock">
+                                            </i>date</p>
+                                <h5 class="card-title tittle-right">Card title</h5>
+                                <p class="card-text desc-right">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
                             </div>
                         </div>
