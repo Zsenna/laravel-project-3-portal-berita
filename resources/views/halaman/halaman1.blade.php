@@ -99,7 +99,7 @@
                                 <div class="card-body">
                                     <p class="card-date"><i class="bi bi-clock">
                                             </i>{{ $berita->create_at }}</p>
-                                    <h5 class="card-title">{{ $berita->title }}</h5>
+                                    <h5 class="card-title tittle-right">{{ $berita->title }}</h5>
                                     <p class="card-text desc-right">{{ $berita->description }}</p>
                                 </div>
                             </div>
