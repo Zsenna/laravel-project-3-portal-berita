@@ -68,6 +68,12 @@
     color: white;
 }
 
+#sec-2 .card-text {
+    width: 100%;
+    height: 5em;
+    overflow: hidden;
+}
+
 /* SEC-3 */
 #sec-3 .left .item {
     /* width: 100%; */
@@ -118,6 +124,18 @@
 
 #sec-3 .right .item {
     width: 90%;
+}
+
+#sec-3 .desc-left {
+    width: 100%;
+    height: 1.5em;
+    overflow: hidden;
+}
+
+#sec-3 .desc-right {
+    width: 100%;
+    height: 3em;
+    overflow: hidden;
 }
 
 /* RESPONSIVE */

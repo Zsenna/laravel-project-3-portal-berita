@@ -44,7 +44,7 @@
                             <div class="text-block">
                                 <h5 style="color: white;">{{ $data->title }}</h5>
                                 <p style="color: white;">{{ $data->create_at }}</p>
-                                <p style="color: white;">{{ $data->description }}</p>
+                                <p class="headtext" style="color: white;">{{ $data->description }}</p>
                                 <button class="button" type="submit">Read More</button>
                             </div>
                         </div>
@@ -75,7 +75,7 @@
                                 <img src="/bertama_thumb/{{ $berita->thumb }}" class="card-img-top" alt="">
                                 <div class="card-body">
                                     <h5 class="card-title">{{ $berita->title }}</h5>
-                                    <p class="card-text">{{ $berita->description }}</p>
+                                    <p class="card-text desc-left">{{ $berita->description }}</p>
                                 </div>
                             </div>
                         @endforeach
@@ -83,7 +83,7 @@
                             <img src="" class="card-img-top" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                <p class="card-text desc-left">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
                             </div>
                         </div>
@@ -98,7 +98,7 @@
                                 <div class="card-body">
                                     <p class="card-date">{{ $berita->create_at }}</p>
                                     <h5 class="card-title">{{ $berita->title }}</h5>
-                                    <p class="card-text">{{ $berita->description }}</p>
+                                    <p class="card-text desc-right">{{ $berita->description }}</p>
                                 </div>
                             </div>
                         @endforeach

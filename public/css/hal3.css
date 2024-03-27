@@ -176,6 +176,9 @@
     font-weight: bold;
     text-align: left;
     color: black;
+    width: 100%;
+    height: 3em;
+    overflow: hidden;
 }
 
 #sec-1 #headline .card-col img {

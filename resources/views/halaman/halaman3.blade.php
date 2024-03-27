@@ -28,12 +28,12 @@
                             <div class="swiper mySwiper1">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <img src="\image\headline\Link - link description → berpacu-lawan-waktu-selamatkan-korban-gempa-di-jepang-5_43.jpeg.svg" class="card-img-top" alt="">
+                                        <img src="\image\headline\Link - link description → berpacu-lawan-waktu-selamatkan-korban-gempa-di-jepang-5_43.jpeg.svg" class="card-img-top img-left" alt="">
                                         <div class="card-body">
                                             <h5 class="card-title">Jumlah Korban Tewas Gempa Jepang Bertambah Lagi Jadi 110
                                                 Orang</h5>
                                             <p class="card-date">15 May 2020 8:00 am</p>
-                                            <p class="card-text">Korban tewas gempa Jepang bertambah lagi jadi 110 orang,
+                                            <p class="card-text desc-left">Korban tewas gempa Jepang bertambah lagi jadi 110 orang,
                                                 210 orang lainnya masih dinyatakan hilang.</p>
                                         </div>
                                     </div>
@@ -43,7 +43,7 @@
                                             <h5 class="card-title">Jumlah Korban Tewas Gempa Jepang Bertambah Lagi Jadi 110
                                                 Orang</h5>
                                             <p class="card-date">15 May 2020 8:00 am</p>
-                                            <p class="card-text">Korban tewas gempa Jepang bertambah lagi jadi 110 orang,
+                                            <p class="card-text desc-left">Korban tewas gempa Jepang bertambah lagi jadi 110 orang,
                                                 210 orang lainnya masih dinyatakan hilang.</p>
                                         </div>
                                     </div>
@@ -54,7 +54,7 @@
                                             <div class="card-body">
                                                 <h5 class="card-title">{{ $berita->title }}</h5>
                                                 <p class="card-date">{{ $berita->created_at }}</p>
-                                                <p class="card-text">{{ $berita->description }}.</p>
+                                                <p class="card-text desc-left">{{ $berita->description }}.</p>
                                             </div>
                                         </div>
                                     @endforeach
@@ -70,43 +70,49 @@
                                     <img src="/bertama_thumb/{{ $berita->thumb }}" class="card-img-left" alt="">
                                     <div class="card-body">
                                         <p class="card-text-date">{{ $berita->created_at }}</p>
-                                        <p class="card-text">{{ $berita->title }}</p>
+                                        <p class="card-text desc-right"><i class="bi bi-clock">
+                                        </i>{{ $berita->title }}</p>
                                     </div>
                                 </div>
                             @endforeach
                             <div class="card card-col">
                                 <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
                                 <div class="card-body">
-                                    <p class="card-text-date">08.22.2023</p>
-                                    <p class="card-text">Thailand makes it mandatory for tourists to stay</p>
+                                    <p class="card-text-date"><i class="bi bi-clock">
+                                        </i>08.22.2023</p>
+                                    <p class="card-text desc-right">Thailand makes it mandatory for tourists to stay</p>
                                 </div>
                             </div>
                             <div class="card card-col">
                                 <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
                                 <div class="card-body">
-                                    <p class="card-text-date">08.22.2023</p>
-                                    <p class="card-text">Thailand makes it mandatory for tourists to stay</p>
+                                    <p class="card-text-date"><i class="bi bi-clock">
+                                        </i>08.22.2023</p>
+                                    <p class="card-text desc-right">Thailand makes it mandatory for tourists to stay</p>
                                 </div>
                             </div>
                             <div class="card card-col">
                                 <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
                                 <div class="card-body">
-                                    <p class="card-text-date">08.22.2023</p>
-                                    <p class="card-text">Thailand makes it mandatory for tourists to stay</p>
+                                    <p class="card-text-date"><i class="bi bi-clock">
+                                        </i>08.22.2023</p>
+                                    <p class="card-text desc-right">Thailand makes it mandatory for tourists to stay</p>
                                 </div>
                             </div>
                             <div class="card card-col">
                                 <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
                                 <div class="card-body">
-                                    <p class="card-text-date">08.22.2023</p>
-                                    <p class="card-text">Thailand makes it mandatory for tourists to stay</p>
+                                    <p class="card-text-date"><i class="bi bi-clock">
+                                        </i>08.22.2023</p>
+                                    <p class="card-text desc-right">Thailand makes it mandatory for tourists to stay</p>
                                 </div>
                             </div>
                             <div class="card card-col">
                                 <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
                                 <div class="card-body">
-                                    <p class="card-text-date">08.22.2023</p>
-                                    <p class="card-text">Thailand makes it mandatory for tourists to stay</p>
+                                    <p class="card-text-date"><i class="bi bi-clock">
+                                        </i>08.22.2023</p>
+                                    <p class="card-text desc-right">Thailand makes it mandatory for tourists to stay</p>
                                 </div>
                             </div>
                         </div>
@@ -202,7 +208,8 @@
                                         <p class="info"><span class="cat rounded">{{ $berita->type }}</span><i class="bi bi-clock">
                                             </i>{{ $berita->created_at }}</p>
                                         <h5 class="card-title" style="height: 2.8em; overflow: hidden">{{ $berita->title }}</h5>
-                                        <p class="card-text" style="height: 5em; overflow: hidden">{{ $berita->description }}</p>
+                                        <p class="card-text desc-left" style="height: 5em; overflow: hidden"><i class="bi bi-clock">
+                                        </i>{{ $berita->description }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -276,7 +283,7 @@
                                     <p class="info"><span class="cat rounded">Tech</span><i class="bi bi-clock">
                                         </i>08.12.2022</p>
                                     <h5 class="card-title" style="height: 2.8em; overflow: hidden">Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
-                                    <p class="card-text" style="height: 5em; overflow: hidden">Some quick example text to build on the card title and make up the
+                                    <p class="card-text desc-right" style="height: 5em; overflow: hidden">Some quick example text to build on the card title and make up the
                                         bulk
                                         of the card's content.</p>
                                 </div>
