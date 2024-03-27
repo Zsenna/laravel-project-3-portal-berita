@@ -30,9 +30,10 @@
                                     <div class="swiper-slide">
                                         <img src="\image\headline\Link - link description → berpacu-lawan-waktu-selamatkan-korban-gempa-di-jepang-5_43.jpeg.svg" class="card-img-top img-left" alt="">
                                         <div class="card-body">
-                                            <h5 class="card-title">Jumlah Korban Tewas Gempa Jepang Bertambah Lagi Jadi 110
+                                            <h5 class="card-title tittle-left">Jumlah Korban Tewas Gempa Jepang Bertambah Lagi Jadi 110
                                                 Orang</h5>
-                                            <p class="card-date">15 May 2020 8:00 am</p>
+                                            <p class="card-date"><i class="bi bi-clock">
+                                            </i>15 May 2020 8:00 am</p>
                                             <p class="card-text desc-left">Korban tewas gempa Jepang bertambah lagi jadi 110 orang,
                                                 210 orang lainnya masih dinyatakan hilang.</p>
                                         </div>
@@ -40,9 +41,10 @@
                                     <div class="swiper-slide">
                                         <img src="\image\headline\Link - link description → berpacu-lawan-waktu-selamatkan-korban-gempa-di-jepang-5_43.jpeg.svg" class="card-img-top" alt="">
                                         <div class="card-body">
-                                            <h5 class="card-title">Jumlah Korban Tewas Gempa Jepang Bertambah Lagi Jadi 110
+                                            <h5 class="card-title tittle-left">Jumlah Korban Tewas Gempa Jepang Bertambah Lagi Jadi 110
                                                 Orang</h5>
-                                            <p class="card-date">15 May 2020 8:00 am</p>
+                                            <p class="card-date"><i class="bi bi-clock">
+                                            </i>15 May 2020 8:00 am</p>
                                             <p class="card-text desc-left">Korban tewas gempa Jepang bertambah lagi jadi 110 orang,
                                                 210 orang lainnya masih dinyatakan hilang.</p>
                                         </div>
@@ -52,8 +54,9 @@
                                             <img src="/bertama_thumb/{{ $berita->thumb }}" class="card-img-top"
                                                 alt="">
                                             <div class="card-body">
-                                                <h5 class="card-title">{{ $berita->title }}</h5>
-                                                <p class="card-date">{{ $berita->created_at }}</p>
+                                                <h5 class="card-title tittle-left">{{ $berita->title }}</h5>
+                                                <p class="card-date"><i class="bi bi-clock">
+                                            </i>{{ $berita->created_at }}</p>
                                                 <p class="card-text desc-left">{{ $berita->description }}.</p>
                                             </div>
                                         </div>
@@ -75,38 +78,6 @@
                                     </div>
                                 </div>
                             @endforeach
-                            <div class="card card-col">
-                                <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
-                                <div class="card-body">
-                                    <p class="card-text-date"><i class="bi bi-clock">
-                                        </i>08.22.2023</p>
-                                    <p class="card-text desc-right">Thailand makes it mandatory for tourists to stay</p>
-                                </div>
-                            </div>
-                            <div class="card card-col">
-                                <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
-                                <div class="card-body">
-                                    <p class="card-text-date"><i class="bi bi-clock">
-                                        </i>08.22.2023</p>
-                                    <p class="card-text desc-right">Thailand makes it mandatory for tourists to stay</p>
-                                </div>
-                            </div>
-                            <div class="card card-col">
-                                <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
-                                <div class="card-body">
-                                    <p class="card-text-date"><i class="bi bi-clock">
-                                        </i>08.22.2023</p>
-                                    <p class="card-text desc-right">Thailand makes it mandatory for tourists to stay</p>
-                                </div>
-                            </div>
-                            <div class="card card-col">
-                                <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
-                                <div class="card-body">
-                                    <p class="card-text-date"><i class="bi bi-clock">
-                                        </i>08.22.2023</p>
-                                    <p class="card-text desc-right">Thailand makes it mandatory for tourists to stay</p>
-                                </div>
-                            </div>
                             <div class="card card-col">
                                 <img src="\image\headline\5.png.svg" class="card-img-left" alt="">
                                 <div class="card-body">
@@ -208,7 +179,7 @@
                                         <p class="info"><span class="cat rounded">{{ $berita->type }}</span><i class="bi bi-clock">
                                             </i>{{ $berita->created_at }}</p>
                                         <h5 class="card-title" style="height: 2.8em; overflow: hidden">{{ $berita->title }}</h5>
-                                        <p class="card-text desc-left" style="height: 5em; overflow: hidden"><i class="bi bi-clock">
+                                        <p class="card-text" style="height: 5em; overflow: hidden"><i class="bi bi-clock">
                                         </i>{{ $berita->description }}</p>
                                     </div>
                                 </div>
@@ -222,8 +193,8 @@
                                 <div class="card-body">
                                     <p class="info"><span class="cat rounded">Tech</span><i class="bi bi-clock">
                                         </i>08.12.2022</p>
-                                    <h5 class="card-title" style="height: 2.8em; overflow: hidden">Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
-                                    <p class="card-text" style="height: 5em; overflow: hidden">Some quick example text to build on the card title and make up the
+                                    <h5 class="card-title trend-tittle">Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
+                                    <p class="card-text trend-desc">Some quick example text to build on the card title and make up the
                                         bulk
                                         of the card's content.</p>
                                 </div>
@@ -447,7 +418,7 @@
                                         </div>
                                         <div class="detail ps-2" style="width: 70%; font-size: smaller;">
                                             <p class="m-0"><i class="bi bi-clock"> </i>{{ $berita->created_at }}</p>
-                                            <p class="fw-bold m-0">{{ $berita->title }}</p>
+                                            <p class="fw-bold m-0 tittle-right">{{ $berita->title }}</p>
                                         </div>
                                     </div>
                                 @endforeach
@@ -459,7 +430,7 @@
                                     </div>
                                     <div class="detail ps-2" style="width: 70%; font-size: smaller;">
                                         <p class="m-0"><i class="bi bi-clock"> </i>09.14.7742</p>
-                                        <p class="fw-bold m-0">Thailand makes it mandatory for tourists to stay</p>
+                                        <p class="fw-bold m-0 tittle-right">Thailand makes it mandatory for tourists to stay</p>
                                     </div>
                                 </div>
                                 <div class="item d-flex align-items-center justify-content-evenly mb-3 rounded shadow">

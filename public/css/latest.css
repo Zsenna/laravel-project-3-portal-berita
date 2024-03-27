@@ -68,9 +68,15 @@
     color: white;
 }
 
-#sec-2 .card-text {
+#sec-2 .trend-tittle {
     width: 100%;
-    height: 5em;
+    height: 2.5em;
+    overflow: hidden;
+}
+
+#sec-2 .trend-desc {
+    width: 100%;
+    height: 4.8em;
     overflow: hidden;
 }
 
@@ -112,6 +118,9 @@
     left: 5%;
     bottom: 3%;
     color: white;
+    width: 80%;
+    height: 1.4em;
+    overflow: hidden;
 }
 
 #sec-3 .right .item .img {
@@ -126,13 +135,7 @@
     width: 90%;
 }
 
-#sec-3 .desc-left {
-    width: 100%;
-    height: 1.5em;
-    overflow: hidden;
-}
-
-#sec-3 .desc-right {
+#sec-3 .tittle-right {
     width: 100%;
     height: 3em;
     overflow: hidden;
