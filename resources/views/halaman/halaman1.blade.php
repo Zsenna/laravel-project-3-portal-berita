@@ -23,6 +23,8 @@
                     <div class="swiper-slide"><img src="" alt=""></div>
                     <div class="swiper-slide"><img src="" alt=""></div>
                     <div class="swiper-slide"><img src="" alt=""></div>
+                    <div class="swiper-slide"><img src="" alt=""></div>
+                    <div class="swiper-slide"><img src="" alt=""></div>
                 </div>
                 <div class="continer">
                     <div class="swiper-button-next"></div>

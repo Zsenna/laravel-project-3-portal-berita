@@ -1,65 +1,64 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-.left-side .berita img {
+#dberita .left-side .berita img {
     height: 50%;
     width: 100%;
 }
 
-.left-side .more-news .image {
+/* #dberita .left-side .more-news .image {
     overflow: hidden;
-    height: 20rem;
-}
+    height: 20em;
+} */
 
-.left-side .more-news .wrap {
-    width: 14rem;
-}
-
-.left-side .text {
+#dberita .left-side .text {
     text-align: justify;
 }
 
-.left-side .more-news .card-text {
+#dberita .left-side .more-news .card-text {
     text-align: justify;
 }
 
-.left-side .more-news .detail {
+#dberita .left-side .more-news .detail {
     font-weight: bolder;
     font-size: smaller;
     color: gray;
 }
 
-.image-wrap {
+#dberita .image-wrap {
     background-size: cover;
     background-position: center;
     overflow: hidden;
 }
 
-.left-side .image-wrap {
-    height: 20rem;
+#dberita .left-side .image-wrap {
+    height: 20em;
 }
 
-.right-side .image-wrap {
-    width: 8rem;
-    height: 10rem;
+#dberita .right-side .image-wrap {
+    width: 4.8em;
+    height: 6em;
 }
 
 /* RESPONSIVING */
 @media screen and (max-width: 1000px) {
-    .right-side {
+    #dberita .right-side .card-body {
         font-size: smaller;
     }
 
-    .right-side .image-wrap {
-        width: 10rem;
-        height: 9rem;
+    #dberita .right-side .card-title {
+        font-size: medium;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .left-side .wrap {
+    #dberita .left-side .wrap {
         font-size: small;
     }
 
-    .right-side {
+    #dberita .left-side .image-wrap {
+        height: 15rem;
+    }
+
+    #dberita .right-side {
         display: none;
     }
 }
