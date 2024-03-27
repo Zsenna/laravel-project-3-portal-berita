@@ -28,24 +28,30 @@
                             <div class="swiper mySwiper1">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <img src="\image\headline\Link - link description → berpacu-lawan-waktu-selamatkan-korban-gempa-di-jepang-5_43.jpeg.svg" class="card-img-top img-left" alt="">
+                                        <img src="\image\headline\Link - link description → berpacu-lawan-waktu-selamatkan-korban-gempa-di-jepang-5_43.jpeg.svg"
+                                            class="card-img-top img-left" alt="">
                                         <div class="card-body">
-                                            <h5 class="card-title tittle-left">Jumlah Korban Tewas Gempa Jepang Bertambah Lagi Jadi 110
+                                            <h5 class="card-title tittle-left">Jumlah Korban Tewas Gempa Jepang Bertambah
+                                                Lagi Jadi 110
                                                 Orang</h5>
                                             <p class="card-date"><i class="bi bi-clock">
-                                            </i>15 May 2020 8:00 am</p>
-                                            <p class="card-text desc-left">Korban tewas gempa Jepang bertambah lagi jadi 110 orang,
+                                                </i>15 May 2020 8:00 am</p>
+                                            <p class="card-text desc-left">Korban tewas gempa Jepang bertambah lagi jadi 110
+                                                orang,
                                                 210 orang lainnya masih dinyatakan hilang.</p>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="\image\headline\Link - link description → berpacu-lawan-waktu-selamatkan-korban-gempa-di-jepang-5_43.jpeg.svg" class="card-img-top" alt="">
+                                        <img src="\image\headline\Link - link description → berpacu-lawan-waktu-selamatkan-korban-gempa-di-jepang-5_43.jpeg.svg"
+                                            class="card-img-top" alt="">
                                         <div class="card-body">
-                                            <h5 class="card-title tittle-left">Jumlah Korban Tewas Gempa Jepang Bertambah Lagi Jadi 110
+                                            <h5 class="card-title tittle-left">Jumlah Korban Tewas Gempa Jepang Bertambah
+                                                Lagi Jadi 110
                                                 Orang</h5>
                                             <p class="card-date"><i class="bi bi-clock">
-                                            </i>15 May 2020 8:00 am</p>
-                                            <p class="card-text desc-left">Korban tewas gempa Jepang bertambah lagi jadi 110 orang,
+                                                </i>15 May 2020 8:00 am</p>
+                                            <p class="card-text desc-left">Korban tewas gempa Jepang bertambah lagi jadi 110
+                                                orang,
                                                 210 orang lainnya masih dinyatakan hilang.</p>
                                         </div>
                                     </div>
@@ -56,7 +62,7 @@
                                             <div class="card-body">
                                                 <h5 class="card-title tittle-left">{{ $berita->title }}</h5>
                                                 <p class="card-date"><i class="bi bi-clock">
-                                            </i>{{ $berita->created_at }}</p>
+                                                    </i>{{ $berita->created_at }}</p>
                                                 <p class="card-text desc-left">{{ $berita->description }}.</p>
                                             </div>
                                         </div>
@@ -72,9 +78,8 @@
                                 <div class="card card-col">
                                     <img src="/bertama_thumb/{{ $berita->thumb }}" class="card-img-left" alt="">
                                     <div class="card-body">
-                                        <p class="card-text-date">{{ $berita->created_at }}</p>
-                                        <p class="card-text desc-right"><i class="bi bi-clock">
-                                        </i>{{ $berita->title }}</p>
+                                        <p class="card-text-date"><i class="bi bi-clock"> </i>{{ $berita->created_at }}</p>
+                                        <p class="card-text desc-right">{{ $berita->title }}</p>
                                     </div>
                                 </div>
                             @endforeach
@@ -169,18 +174,20 @@
                 <div class="swiper mySwiper container-fluid">
                     <div class="swiper-wrapper position-relative d-flex align-items-center">
                         {{-- CARD --}}
-                         @foreach ($data as $berita)
+                        @foreach ($data as $berita)
                             <div class="swiper-slide">
                                 <div class="item rounded card container-lg p-0 shadow">
                                     <div class="image-wrap rounded">
                                         <img class="img-fluid rounded" src="/bertama_thumb/{{ $berita->thumb }}">
                                     </div>
                                     <div class="card-body">
-                                        <p class="info"><span class="cat rounded">{{ $berita->type }}</span><i class="bi bi-clock">
+                                        <p class="info"><span class="cat rounded">{{ $berita->type }}</span><i
+                                                class="bi bi-clock">
                                             </i>{{ $berita->created_at }}</p>
-                                        <h5 class="card-title" style="height: 2.8em; overflow: hidden">{{ $berita->title }}</h5>
-                                        <p class="card-text" style="height: 5em; overflow: hidden"><i class="bi bi-clock">
-                                        </i>{{ $berita->description }}</p>
+                                        <h5 class="card-title" style="height: 2.8em; overflow: hidden">{{ $berita->title }}
+                                        </h5>
+                                        <p class="card-text" style="height: 5em; overflow: hidden">
+                                            {{ $berita->description }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -188,13 +195,16 @@
                         <div class="swiper-slide">
                             <div class="item rounded card container-lg p-0 shadow">
                                 <div class="image-wrap rounded">
-                                    <img class="img-fluid rounded" src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
+                                    <img class="img-fluid rounded"
+                                        src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
                                 </div>
                                 <div class="card-body">
                                     <p class="info"><span class="cat rounded">Tech</span><i class="bi bi-clock">
                                         </i>08.12.2022</p>
-                                    <h5 class="card-title trend-tittle">Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
-                                    <p class="card-text trend-desc">Some quick example text to build on the card title and make up the
+                                    <h5 class="card-title trend-tittle">Lorem ipsum dolor sit amet consectetur adipisicing.
+                                    </h5>
+                                    <p class="card-text trend-desc">Some quick example text to build on the card title and
+                                        make up the
                                         bulk
                                         of the card's content.</p>
                                 </div>
@@ -203,13 +213,16 @@
                         <div class="swiper-slide">
                             <div class="item rounded card container-lg p-0 shadow">
                                 <div class="image-wrap rounded">
-                                    <img class="img-fluid rounded" src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
+                                    <img class="img-fluid rounded"
+                                        src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
                                 </div>
                                 <div class="card-body">
                                     <p class="info"><span class="cat rounded">Tech</span><i class="bi bi-clock">
                                         </i>08.12.2022</p>
-                                    <h5 class="card-title" style="height: 2.8em; overflow: hidden">Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
-                                    <p class="card-text" style="height: 5em; overflow: hidden">Some quick example text to build on the card title and make up the
+                                    <h5 class="card-title" style="height: 2.8em; overflow: hidden">Lorem ipsum dolor sit
+                                        amet consectetur adipisicing.</h5>
+                                    <p class="card-text" style="height: 5em; overflow: hidden">Some quick example text to
+                                        build on the card title and make up the
                                         bulk
                                         of the card's content.</p>
                                 </div>
@@ -218,13 +231,16 @@
                         <div class="swiper-slide">
                             <div class="item rounded card container-lg p-0 shadow">
                                 <div class="image-wrap rounded">
-                                    <img class="img-fluid rounded" src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
+                                    <img class="img-fluid rounded"
+                                        src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
                                 </div>
                                 <div class="card-body">
                                     <p class="info"><span class="cat rounded">Tech</span><i class="bi bi-clock">
                                         </i>08.12.2022</p>
-                                    <h5 class="card-title" style="height: 2.8em; overflow: hidden">Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
-                                    <p class="card-text" style="height: 5em; overflow: hidden">Some quick example text to build on the card title and make up the
+                                    <h5 class="card-title" style="height: 2.8em; overflow: hidden">Lorem ipsum dolor sit
+                                        amet consectetur adipisicing.</h5>
+                                    <p class="card-text" style="height: 5em; overflow: hidden">Some quick example text to
+                                        build on the card title and make up the
                                         bulk
                                         of the card's content.</p>
                                 </div>
@@ -233,13 +249,16 @@
                         <div class="swiper-slide">
                             <div class="item rounded card container-lg p-0 shadow">
                                 <div class="image-wrap rounded">
-                                    <img class="img-fluid rounded" src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
+                                    <img class="img-fluid rounded"
+                                        src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
                                 </div>
                                 <div class="card-body">
                                     <p class="info"><span class="cat rounded">Tech</span><i class="bi bi-clock">
                                         </i>08.12.2022</p>
-                                    <h5 class="card-title" style="height: 2.8em; overflow: hidden">Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
-                                    <p class="card-text" style="height: 5em; overflow: hidden">Some quick example text to build on the card title and make up the
+                                    <h5 class="card-title" style="height: 2.8em; overflow: hidden">Lorem ipsum dolor sit
+                                        amet consectetur adipisicing.</h5>
+                                    <p class="card-text" style="height: 5em; overflow: hidden">Some quick example text to
+                                        build on the card title and make up the
                                         bulk
                                         of the card's content.</p>
                                 </div>
@@ -248,13 +267,16 @@
                         <div class="swiper-slide">
                             <div class="item rounded card container-lg p-0 shadow">
                                 <div class="image-wrap rounded">
-                                    <img class="img-fluid rounded" src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
+                                    <img class="img-fluid rounded"
+                                        src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
                                 </div>
                                 <div class="card-body">
                                     <p class="info"><span class="cat rounded">Tech</span><i class="bi bi-clock">
                                         </i>08.12.2022</p>
-                                    <h5 class="card-title" style="height: 2.8em; overflow: hidden">Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
-                                    <p class="card-text desc-right" style="height: 5em; overflow: hidden">Some quick example text to build on the card title and make up the
+                                    <h5 class="card-title" style="height: 2.8em; overflow: hidden">Lorem ipsum dolor sit
+                                        amet consectetur adipisicing.</h5>
+                                    <p class="card-text desc-right" style="height: 5em; overflow: hidden">Some quick
+                                        example text to build on the card title and make up the
                                         bulk
                                         of the card's content.</p>
                                 </div>
@@ -402,12 +424,12 @@
                             <p class="date"><i class="bi bi-clock"> </i>74 - Olarius - 3339</p>
                             <h5 class="title">She Sets Up High</h5>
                         </div>
-                         <div class="item position-relative rounded mb-3 shadow col-4 col-sm-12"
+                        <div class="item position-relative rounded mb-3 shadow col-4 col-sm-12"
                             style="background-image: url('https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/band-oasis.jpg');">
                             <p class="date"><i class="bi bi-clock"> </i>74 - Olarius - 3339</p>
                             <h5 class="title">She Sets Up High</h5>
                         </div>
-                         <div class="item position-relative rounded mb-3 shadow col-4 col-sm-12"
+                        <div class="item position-relative rounded mb-3 shadow col-4 col-sm-12"
                             style="background-image: url('https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/band-oasis.jpg');">
                             <p class="date"><i class="bi bi-clock"> </i>74 - Olarius - 3339</p>
                             <h5 class="title">She Sets Up High</h5>
@@ -440,7 +462,8 @@
                                     </div>
                                     <div class="detail ps-2" style="width: 70%; font-size: smaller;">
                                         <p class="m-0"><i class="bi bi-clock"> </i>09.14.7742</p>
-                                        <p class="fw-bold m-0 tittle-right">Thailand makes it mandatory for tourists to stay</p>
+                                        <p class="fw-bold m-0 tittle-right">Thailand makes it mandatory for tourists to
+                                            stay</p>
                                     </div>
                                 </div>
                                 <div class="item d-flex align-items-center justify-content-evenly mb-3 rounded shadow">
