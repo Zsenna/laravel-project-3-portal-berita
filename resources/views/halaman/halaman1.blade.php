@@ -42,8 +42,9 @@
                         <div class="image-container">
                             <img class="img-fluid" src="bertama_thumb/{{ $data->thumb }}" alt="">
                             <div class="text-block">
-                                <h5 style="color: white;">{{ $data->title }}</h5>
-                                <p style="color: white;">{{ $data->create_at }}</p>
+                                <h5 class="headtittle" style="color: white;">{{ $data->title }}</h5>
+                                <p style="color: white;"><i class="bi bi-clock">
+                                            </i>{{ $data->create_at }}</p>
                                 <p class="headtext" style="color: white;">{{ $data->description }}</p>
                                 <button class="button" type="submit">Read More</button>
                             </div>

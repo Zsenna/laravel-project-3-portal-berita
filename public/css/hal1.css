@@ -112,6 +112,12 @@ a {
     color: white;
 }
 
+#headline .headtittle {
+    height: 3em;
+    width: 22em;
+    overflow: hidden;
+}
+
 #headline .headtext {
     height: 5em;
     width: 22em;
