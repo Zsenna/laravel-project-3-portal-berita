@@ -23,7 +23,7 @@
 
 </head>
 <body>
-     <header>
+    <header>
         <div class="background">
             <img src="images/hadi-utama.svg" alt="">
         </div>

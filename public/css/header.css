@@ -59,12 +59,12 @@ header .content .cta {
 header .cta .menu i,
 header .cta .search i {
     color: white;
-    transition: .2s linear;
+    transition: 0.2s linear;
 }
 
 header .dropdown-menu {
     overflow: visible;
-    transition: .2s linear;
+    transition: 0.2s linear;
 }
 
 #bts {
@@ -72,7 +72,7 @@ header .dropdown-menu {
     top: 3px;
     right: 2rem;
     transform: translateX(0);
-    transition: .3s;
+    transition: 0.3s;
 }
 
 #bts.move {
@@ -81,7 +81,7 @@ header .dropdown-menu {
 
 #fs {
     width: 10rem;
-    transition: .5s;
+    transition: 0.5s;
     transform: scale(0);
 }
 

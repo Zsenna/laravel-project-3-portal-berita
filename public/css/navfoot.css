@@ -49,15 +49,3 @@ nav .icon {
     background-color: rgba(18, 18, 18, 3.6);
     opacity: 40%;
 }
-
-footer {
-    background-color: #f5a623;
-    color: white;
-    font-family: "kurela";
-}
-
-@media screen and (max-width: 420px) {
-    footer .logo {
-        padding: 0 7rem;
-    }
-}

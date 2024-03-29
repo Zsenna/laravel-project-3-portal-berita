@@ -11,6 +11,11 @@
 #sec-2 {
     padding: 3rem 6%;
 } */
+#sec-3 a,
+#sec-2 a {
+    text-decoration: none;
+    color: black;
+}
 
 #sec-3 h3,
 #sec-1 h3,
@@ -29,6 +34,7 @@
     right: 0;
     top: 0;
 }
+
 #sec-2 .card:hover,
 #sec-3 .card:hover {
     background-color: rgba(128, 128, 128, 0.5);
@@ -50,22 +56,15 @@
     padding: 0 1rem;
 }
 
-#sec-2 .item {
-    width: 25vw;
-}
-
-#sec-2 .image-wrap {
-    object-fit: cover;
-    object-position: center;
-    overflow: hidden;
-    height: 17vw;
-}
-
 #sec-2 .cat {
     padding: 0.2rem 0.5rem;
     margin-right: 10%;
     background-color: #f5a623;
     color: white;
+}
+
+#sec-2 .item img {
+    height: 15rem;
 }
 
 /* SEC-3 */
@@ -85,11 +84,9 @@
     height: 70%;
     left: 0;
     bottom: 0;
-    background: linear-gradient(
-        0deg,
-        rgba(245, 166, 35, 1) 0%,
-        rgba(245, 166, 35, 0) 100%
-    );
+    background: linear-gradient(0deg,
+            rgba(245, 166, 35, 1) 0%,
+            rgba(245, 166, 35, 0) 100%);
 }
 
 #sec-3 .left .date {
@@ -106,6 +103,9 @@
     left: 5%;
     bottom: 3%;
     color: white;
+    width: 80%;
+    height: 1.4em;
+    overflow: hidden;
 }
 
 #sec-3 .right .item .img {
@@ -120,8 +120,15 @@
     width: 90%;
 }
 
+#sec-3 .tittle-right {
+    width: 100%;
+    height: 3em;
+    overflow: hidden;
+}
+
 /* RESPONSIVE */
 @media screen and (max-width: 910px) {
+
     #sec-3 .cta,
     #sec-2 .cta {
         width: 10%;
@@ -190,14 +197,6 @@
 }
 
 @media screen and (max-width: 450px) {
-    #sec-2 .item {
-        width: 38vw;
-    }
-    
-    #sec-2 .image-wrap {
-        height: 30vw;
-    }
-
     #sec-3 .left {
         font-size: smaller;
         height: 15vh;

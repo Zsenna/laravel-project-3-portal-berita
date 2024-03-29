@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
 * {
     max-width: 100%;
 }
@@ -20,6 +21,8 @@
 #sec-1 p,
 #sec-1 a {
     font-size: 14px;
+    text-decoration: none;
+    color: black;
 }
 
 #sec-1 .col {
@@ -109,6 +112,7 @@
     border-radius: 1em;
     gap: 2em;
 }
+
 #sec-1 #headline .row .card-left {
     display: flex;
     flex-direction: column;
@@ -129,9 +133,29 @@
     border-radius: 0.5em;
 }
 
+#sec-1 #headline .card-col .card-img-left {
+    width: 6.25em;
+    height: 5.3em;
+    object-fit: cover;
+    border-radius: 0.5em;
+}
+
 #sec-1 #headline .swiper-pagination {
     position: relative;
     bottom: 1.5em;
+}
+
+#sec-1 #headline .tittle-left {
+    margin-top: 0.5em;
+    width: 100%;
+    height: 2.5em;
+    overflow: hidden;
+}
+
+#sec-1 #headline .desc-left {
+    width: 100%;
+    height: 3em;
+    overflow: hidden;
 }
 
 #sec-1 #headline .col {
@@ -172,9 +196,11 @@
 }
 
 #sec-1 #headline .card-text {
-    font-weight: bold;
     text-align: left;
     color: black;
+    width: 100%;
+    height: 3em;
+    overflow: hidden;
 }
 
 #sec-1 #headline .card-col img {
@@ -183,6 +209,13 @@
     object-fit: cover;
     background-color: black;
     border-radius: 0.5em;
+}
+
+#sec-1 #headline .desc-right {
+    font-weight: bold;
+    width: 21em;
+    height: 3em;
+    overflow: hidden;
 }
 
 /* lastest */
@@ -321,16 +354,21 @@
 } */
 
 @media screen and (max-width: 1700px) {
+
     /* headline news */
-    #headline .row {
+    #sec-1 #headline .row {
         width: 100%;
         justify-content: center;
-        display: center;
+        display: flex;
+        flex-direction: column;
         margin: 0em;
+    }
+
+    #sec-1 #headline .row .card-left {
         width: 100%;
     }
 
-    #headline img {
+    #sec-1 #headline .img-left {
         width: 68.3125em;
         height: 38.435em;
         object-fit: cover;
@@ -338,11 +376,11 @@
         border-radius: 1em;
     }
 
-    #headline .col {
+    #sec-1 #headline .col {
         margin: 0em;
         justify-content: center;
         display: flex;
-        width: 15em;
+        width: 100%;
         height: 5em;
         flex-direction: row;
     }
