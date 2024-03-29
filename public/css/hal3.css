@@ -20,6 +20,8 @@
 #sec-1 p,
 #sec-1 a {
     font-size: 14px;
+    text-decoration: none;
+    color: black;
 }
 
 #sec-1 .col {

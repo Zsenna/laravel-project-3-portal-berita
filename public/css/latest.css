@@ -11,6 +11,11 @@
 #sec-2 {
     padding: 3rem 6%;
 } */
+#sec-3 a,
+#sec-2 a {
+    text-decoration: none;
+    color: black;
+}
 
 #sec-3 h3,
 #sec-1 h3,
