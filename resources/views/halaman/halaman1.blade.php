@@ -44,7 +44,7 @@
                             <div class="text-block">
                                 <h5 class="headtittle" style="color: white;">{{ $data->title }}</h5>
                                 <p style="color: white;"><i class="bi bi-clock">
-                                            </i>{{ $data->create_at }}</p>
+                                    </i>{{ $data->created_at }}</p>
                                 <p class="headtext" style="color: white;">{{ $data->description }}</p>
                                 <button class="button" type="submit">Read More</button>
                             </div>
@@ -88,7 +88,8 @@
                             <img src="" class="card-img-top" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
-                                <p class="card-text desc-left">Some quick example text to build on the card title and make up the
+                                <p class="card-text desc-left">Some quick example text to build on the card title and make
+                                    up the
                                     bulk of the card's content.</p>
                             </div>
                         </a>
@@ -102,7 +103,7 @@
                                 <img src="/bertama_thumb/{{ $berita->thumb }}" class="card-img-top" alt="">
                                 <div class="card-body">
                                     <p class="card-date"><i class="bi bi-clock">
-                                            </i>{{ $berita->create_at }}</p>
+                                        </i>{{ $berita->created_at }}</p>
                                     <h5 class="card-title tittle-right">{{ $berita->title }}</h5>
                                     <p class="card-text desc-right">{{ $berita->description }}</p>
                                 </div>
@@ -112,9 +113,10 @@
                             <img src="" class="card-img-top" alt="">
                             <div class="card-body">
                                 <p class="card-date"><i class="bi bi-clock">
-                                            </i>date</p>
+                                    </i>date</p>
                                 <h5 class="card-title tittle-right">Card title</h5>
-                                <p class="card-text desc-right">Some quick example text to build on the card title and make up the
+                                <p class="card-text desc-right">Some quick example text to build on the card title and make
+                                    up the
                                     bulk of the card's content.</p>
                             </div>
                         </a>

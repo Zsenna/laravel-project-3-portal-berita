@@ -34,6 +34,7 @@
     right: 0;
     top: 0;
 }
+
 #sec-2 .card:hover,
 #sec-3 .card:hover {
     background-color: rgba(128, 128, 128, 0.5);
@@ -64,6 +65,11 @@
     object-position: center;
     overflow: hidden;
     height: 17vw;
+}
+
+#sec-2 .image-wrap img {
+    height: 100%;
+    width: 100%;
 }
 
 #sec-2 .cat {
@@ -102,11 +108,9 @@
     height: 70%;
     left: 0;
     bottom: 0;
-    background: linear-gradient(
-        0deg,
-        rgba(245, 166, 35, 1) 0%,
-        rgba(245, 166, 35, 0) 100%
-    );
+    background: linear-gradient(0deg,
+            rgba(245, 166, 35, 1) 0%,
+            rgba(245, 166, 35, 0) 100%);
 }
 
 #sec-3 .left .date {
@@ -148,6 +152,7 @@
 
 /* RESPONSIVE */
 @media screen and (max-width: 910px) {
+
     #sec-3 .cta,
     #sec-2 .cta {
         width: 10%;
