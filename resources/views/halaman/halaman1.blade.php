@@ -39,7 +39,7 @@
             <div class="box">
                 <div class="row">
                     @foreach ($data1 as $data)
-                        <a href="" class="image-container">
+                        <div class="image-container">
                             <img class="img-fluid" src="bertama_thumb/{{ $data->thumb }}" alt="">
                             <div class="text-block">
                                 <h5 class="headtittle" style="color: white;">{{ $data->title }}</h5>
@@ -48,8 +48,18 @@
                                 <p class="headtext" style="color: white;">{{ $data->description }}</p>
                                 <button class="button" type="submit">Read More</button>
                             </div>
-                        </a>
+                        </div>
                     @endforeach
+                    <div class="image-container">
+                        <img class="img-fluid" src="" alt="">
+                        <div class="text-block">
+                            <h5 class="headtittle" style="color: white;">sdfasdfasdfasdf</h5>
+                            <p style="color: white;"><i class="bi bi-clock">
+                                </i>fdghdfhdfhdf</p>
+                            <p class="headtext" style="color: white;">asfdasdfasdf</p>
+                            <a href=""><button class="button" type="submit">Read More</button></a>
+                        </div>
+                    </div>
                     <div class="col" id="col">
                         @foreach ($data5 as $image)
                             <a href="" class="card">
