@@ -20,6 +20,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'index']);
+Route::get('/detail/{id}', [HomeController::class, 'detail'])->name('halaman.halaman2');
 Route::get('/halaman2', [HomeController::class, 'hal2']);
 Route::get('/halaman3', [HomeController::class, 'hal3']);
 
