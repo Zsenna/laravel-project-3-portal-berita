@@ -81,9 +81,7 @@
                                 </div>
                             </div>
                         </a>
-                            
                         @endforeach
-                      
                         <a href="" class="card col-4">
                             <img src="" class="card-img-top" alt="">
                             <div class="card-body">
