@@ -7,10 +7,12 @@
     list-style-type: none;
 }
 
-/* #sec-3,
-#sec-2 {
+#sec-3,
+#sec-2,
+#sec-1 {
     padding: 3rem 6%;
-} */
+}
+
 #sec-3 a,
 #sec-2 a {
     text-decoration: none;

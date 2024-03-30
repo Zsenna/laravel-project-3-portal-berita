@@ -83,7 +83,7 @@
                                 <div class="card-body">
                                     <p class="card-text-date"><i class="bi bi-clock">
                                         </i>08.22.2023</p>
-                                    <p class="card-text desc-right">Thailand makes it mandatory for tourists to stay</p>
+                                    <p class="card-text desc-right">Thailand makes it mandatory for</p>
                                 </div>
                             </div>
                         </div>
