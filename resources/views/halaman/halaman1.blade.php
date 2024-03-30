@@ -18,7 +18,8 @@
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     @foreach ($datas as $image)
-                        <a href="" class="swiper-slide"><img src="/bertama_thumb/{{ $image->thumb }}" alt=""></a>
+                        <a href="/detail/{{ $image->id }}" class="swiper-slide"><img
+                                src="/bertama_thumb/{{ $image->thumb }}" alt=""></a>
                     @endforeach
                     <a href="" class="swiper-slide"><img src="" alt=""></a>
                     <a href="" class="swiper-slide"><img src="" alt=""></a>
@@ -46,23 +47,13 @@
                                 <p style="color: white;"><i class="bi bi-clock">
                                     </i>{{ $data->created_at }}</p>
                                 <p class="headtext" style="color: white;">{{ $data->description }}</p>
-                                <button class="button" type="submit">Read More</button>
+                                <a href=""><button class="button" type="submit">Read More</button></a>
                             </div>
                         </div>
                     @endforeach
-                    <div class="image-container">
-                        <img class="img-fluid" src="" alt="">
-                        <div class="text-block">
-                            <h5 class="headtittle" style="color: white;">sdfasdfasdfasdf</h5>
-                            <p style="color: white;"><i class="bi bi-clock">
-                                </i>fdghdfhdfhdf</p>
-                            <p class="headtext" style="color: white;">asfdasdfasdf</p>
-                            <a href=""><button class="button" type="submit">Read More</button></a>
-                        </div>
-                    </div>
                     <div class="col" id="col">
                         @foreach ($data5 as $image)
-                            <a href="" class="card">
+                            <a href="/detail/{{ $image->id }}" class="card">
                                 <img src="/bertama_thumb/{{ $image->thumb }}" class="card-img-left" alt="tes">
                                 <div class="card-body">
                                     <p class="card-text">{{ $image->title }}</p>
@@ -82,16 +73,17 @@
                     News Spotlight Here >
                     <div class="container-left row">
                         @foreach ($data5 as $berita)
-                        <a href="" >
-                            <div class="card col-4">
-                                <img src="/bertama_thumb/{{ $berita->thumb }}" class="card-img-top" alt="">
-                                <div class="card-body">
-                                    <h5 class="card-title tittle-left">{{ $berita->title }}</h5>
-                                    <p class="card-text desc-left">{{ $berita->description }}</p>
+                            <a href="/detail/{{ $berita->id }}">
+                                <div class="card col-4">
+                                    <img src="/bertama_thumb/{{ $berita->thumb }}" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title tittle-left">{{ $berita->title }}</h5>
+                                        <p class="card-text desc-left">{{ $berita->description }}</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
                         @endforeach
+
                         <a href="" class="card col-4">
                             <img src="" class="card-img-top" alt="">
                             <div class="card-body">
@@ -107,7 +99,7 @@
                     News Spotlight Here >
                     <div class="container-right">
                         @foreach ($data5 as $berita)
-                            <a href="" class="card">
+                            <a href="/detail/{{ $berita->id }}" class="card">
                                 <img src="/bertama_thumb/{{ $berita->thumb }}" class="card-img-top" alt="">
                                 <div class="card-body">
                                     <p class="card-date"><i class="bi bi-clock">
