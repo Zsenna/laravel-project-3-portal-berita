@@ -10,27 +10,12 @@
             <!-- LEFT SIDE DIV -->
             <div class="left-side container-fluid col-md-9 col-12 p-2 me-4">
                 <div class="berita mb-5">
-                    <img src="https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg"
-                        class="rounded mb-3" alt="...">
+                    <img src="/bertama_thumb/{{ $data->thumb }}" class="rounded mb-3" alt="...">
                     <div class="detail px-4">
-                        <h3>Addicted to Lonely Kind of Love</h3>
-                        <p><span class="fw-bold">15 May 2024 8:00 AM</span> - Author</p>
+                        <h3>{{ $data->title }}</h3>
+                        <p><span class="fw-bold">{{ $data->created_at }}</span> - Author</p>
                         <div class="text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus adipisci labore unde,
-                                nemo
-                                veritatis distinctio tempora doloribus vitae molestias nihil in quo quis excepturi fugit
-                                tenetur ipsam nesciunt consequuntur dolorum? Fugiat a iure totam, dignissimos aliquid
-                                sint
-                                autem harum odio vero soluta ea minima commodi officia aspernatur incidunt culpa in
-                                reprehenderit! Eligendi, optio distinctio. Dignissimos, repellendus! Aut, autem rem,
-                                eaque
-                                sunt veniam natus odio illo laborum velit eligendi veritatis enim quibusdam. Rerum
-                                veniam,
-                                quidem enim ipsum similique aliquam nobis ducimus perspiciatis voluptas maiores vitae
-                                quod
-                                impedit voluptatum dolores temporibus ratione laboriosam iusto molestiae, soluta
-                                delectus
-                                nam suscipit cumque alias fuga!</p>
+                            <p>{{ $data->description }}</p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae hic, ea consectetur
                                 non
                                 recusandae commodi placeat dicta illo et reprehenderit quia repellat atque? Quia libero
@@ -63,10 +48,10 @@
                 <h3>More News</h3>
                 <div class="more-news d-flex flex-wrap justify-content-evenly align-items-center">
                     <!-- CARD -->
-                    @foreach ($data as $berita)
+                    @foreach ($moreNews as $berita)
                         <div class="wrap mb-4 p-3" style="width: 14em">
                             <div class="image-wrap rounded"
-                                style="background-image: url('bertama_thumb/{{ $berita->thumb }}')">
+                                style="background-image: url('/bertama_thumb/{{ $berita->thumb }}')">
                             </div>
                             <div class="card-body">
                                 <div class="detail">{{ $berita->created_at }}</div>
@@ -81,8 +66,10 @@
                         </div>
                         <div class="card-body">
                             <div class="detail">15 May 2024 8:00 AM</div>
-                            <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde?</h5>
-                            <p class="card-text" style="height: 8em; overflow: hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+                            <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Labore, unde?</h5>
+                            <p class="card-text" style="height: 8em; overflow: hidden">Lorem ipsum dolor sit, amet
+                                consectetur adipisicing elit. Asperiores
                                 expedita esse quo perspiciatis consequuntur voluptatem!</p>
                         </div>
                     </div>
@@ -92,8 +79,10 @@
                         </div>
                         <div class="card-body">
                             <div class="detail">15 May 2024 8:00 AM</div>
-                            <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde?</h5>
-                            <p class="card-text" style="height: 8em; overflow: hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+                            <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Labore, unde?</h5>
+                            <p class="card-text" style="height: 8em; overflow: hidden">Lorem ipsum dolor sit, amet
+                                consectetur adipisicing elit. Asperiores
                                 expedita esse quo perspiciatis consequuntur voluptatem!</p>
                         </div>
                     </div>
@@ -103,8 +92,10 @@
                         </div>
                         <div class="card-body">
                             <div class="detail">15 May 2024 8:00 AM</div>
-                            <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde?</h5>
-                            <p class="card-text" style="height: 8em; overflow: hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+                            <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Labore, unde?</h5>
+                            <p class="card-text" style="height: 8em; overflow: hidden">Lorem ipsum dolor sit, amet
+                                consectetur adipisicing elit. Asperiores
                                 expedita esse quo perspiciatis consequuntur voluptatem!</p>
                         </div>
                     </div>
@@ -114,8 +105,10 @@
                         </div>
                         <div class="card-body">
                             <div class="detail">15 May 2024 8:00 AM</div>
-                            <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde?</h5>
-                            <p class="card-text" style="height: 8em; overflow: hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+                            <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Labore, unde?</h5>
+                            <p class="card-text" style="height: 8em; overflow: hidden">Lorem ipsum dolor sit, amet
+                                consectetur adipisicing elit. Asperiores
                                 expedita esse quo perspiciatis consequuntur voluptatem!</p>
                         </div>
                     </div>
@@ -125,8 +118,10 @@
                         </div>
                         <div class="card-body">
                             <div class="detail">15 May 2024 8:00 AM</div>
-                            <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde?</h5>
-                            <p class="card-text" style="height: 8em; overflow: hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+                            <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Labore, unde?</h5>
+                            <p class="card-text" style="height: 8em; overflow: hidden">Lorem ipsum dolor sit, amet
+                                consectetur adipisicing elit. Asperiores
                                 expedita esse quo perspiciatis consequuntur voluptatem!</p>
                         </div>
                     </div>
@@ -136,8 +131,10 @@
                         </div>
                         <div class="card-body">
                             <div class="detail">15 May 2024 8:00 AM</div>
-                            <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde?</h5>
-                            <p class="card-text" style="height: 8em; overflow: hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+                            <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Labore, unde?</h5>
+                            <p class="card-text" style="height: 8em; overflow: hidden">Lorem ipsum dolor sit, amet
+                                consectetur adipisicing elit. Asperiores
                                 expedita esse quo perspiciatis consequuntur voluptatem!</p>
                         </div>
                     </div>
@@ -147,8 +144,10 @@
                         </div>
                         <div class="card-body">
                             <div class="detail">15 May 2024 8:00 AM</div>
-                            <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde?</h5>
-                            <p class="card-text" style="height: 8em; overflow: hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+                            <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Labore, unde?</h5>
+                            <p class="card-text" style="height: 8em; overflow: hidden">Lorem ipsum dolor sit, amet
+                                consectetur adipisicing elit. Asperiores
                                 expedita esse quo perspiciatis consequuntur voluptatem!</p>
                         </div>
                     </div>
@@ -160,10 +159,10 @@
             <div class="right-side container-fluid p-2 col-md-3 col-0">
                 <h3 class="">More News</h3>
                 <!-- CARD -->
-                @foreach ($data as $berita)
+                @foreach ($moreNews as $berita)
                     <div class="wrap d-flex my-5" style="height: 6.5em; overflow: hidden">
                         <div class="image-wrap rounded"
-                            style="background-image: url('bertama_thumb/{{ $berita->thumb }}')">
+                            style="background-image: url('/bertama_thumb/{{ $berita->thumb }}')">
                         </div>
                         <div class="card-body ps-2" style="width: 3em">
                             <h5 class="card-title" style="height: 2.5em; overflow: hidden">{{ $berita->title }}</h5>
@@ -176,8 +175,10 @@
                         style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                     </div>
                     <div class="card-body ps-2" style="width: 3em">
-                        <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem, ipsum. Lorem, ipsum dolor. Lorem ipsum dolor sit.</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sed optio laudantium, iure suscipit quidem?</p>
+                        <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem, ipsum. Lorem, ipsum dolor.
+                            Lorem ipsum dolor sit.</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ipsum sed optio laudantium, iure suscipit quidem?</p>
                     </div>
                 </div>
                 <div class="wrap d-flex my-5" style="height: 6.5em; overflow: hidden">
@@ -185,8 +186,10 @@
                         style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                     </div>
                     <div class="card-body ps-2" style="width: 3em">
-                        <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem, ipsum. Lorem, ipsum dolor. Lorem ipsum dolor sit.</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sed optio laudantium, iure suscipit quidem?</p>
+                        <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem, ipsum. Lorem, ipsum dolor.
+                            Lorem ipsum dolor sit.</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ipsum sed optio laudantium, iure suscipit quidem?</p>
                     </div>
                 </div>
                 <div class="wrap d-flex my-5" style="height: 6.5em; overflow: hidden">
@@ -194,8 +197,10 @@
                         style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                     </div>
                     <div class="card-body ps-2" style="width: 3em">
-                        <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem, ipsum. Lorem, ipsum dolor. Lorem ipsum dolor sit.</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sed optio laudantium, iure suscipit quidem?</p>
+                        <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem, ipsum. Lorem, ipsum dolor.
+                            Lorem ipsum dolor sit.</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ipsum sed optio laudantium, iure suscipit quidem?</p>
                     </div>
                 </div>
                 <div class="wrap d-flex my-5" style="height: 6.5em; overflow: hidden">
@@ -203,8 +208,10 @@
                         style="background-image: url('https://c4.wallpaperflare.com/wallpaper/450/840/999/bring-me-the-horizon-that-s-the-spirit-wallpaper-preview.jpg')">
                     </div>
                     <div class="card-body ps-2" style="width: 3em">
-                        <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem, ipsum. Lorem, ipsum dolor. Lorem ipsum dolor sit.</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sed optio laudantium, iure suscipit quidem?</p>
+                        <h5 class="card-title" style="height: 2.5em; overflow: hidden">Lorem, ipsum. Lorem, ipsum dolor.
+                            Lorem ipsum dolor sit.</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ipsum sed optio laudantium, iure suscipit quidem?</p>
                     </div>
                 </div>
             </div>
