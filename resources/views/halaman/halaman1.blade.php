@@ -73,7 +73,7 @@
                     News Spotlight Here >
                     <div class="container-left row">
                         @foreach ($data5 as $berita)
-                            <a href="/detail/{{ $Porto->id }}">
+                            <a href="/detail/{{ $berita->id }}">
                                 <div class="card col-4">
                                     <img src="/bertama_thumb/{{ $berita->thumb }}" class="card-img-top" alt="">
                                     <div class="card-body">
@@ -99,7 +99,7 @@
                     News Spotlight Here >
                     <div class="container-right">
                         @foreach ($data5 as $berita)
-                            <a href="" class="card">
+                            <a href="/detail/{{ $berita->id }}" class="card">
                                 <img src="/bertama_thumb/{{ $berita->thumb }}" class="card-img-top" alt="">
                                 <div class="card-body">
                                     <p class="card-date"><i class="bi bi-clock">

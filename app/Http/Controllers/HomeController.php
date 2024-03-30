@@ -41,10 +41,11 @@ class HomeController extends Controller
 
     public function detail($id)
     {
-        $Porto = BeritaUtama::find($id);
-        if (!$Porto) abort(404);
-        $images = $Porto->images;
-        return view('pages.detailsPorto', compact('Porto', 'images')); //jd yg dlm compact ini adalah variabel yg akan di bawa ke halaman detailsPorto.blade
+        $moreNews = BeritaUtama::orderBy('title', 'asc')->take(6)->get();
+        $data = BeritaUtama::find($id);
+        if (!$data) abort(404);
+        $images = $data->image;
+        return view('halaman.halaman2', compact('data', 'images', 'moreNews')); //jd yg dlm compact ini adalah variabel yg akan di bawa ke halaman detailsPorto.blade
     }
 
     /**
