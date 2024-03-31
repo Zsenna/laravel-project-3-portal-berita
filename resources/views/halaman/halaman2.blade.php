@@ -1,7 +1,7 @@
 @extends('layouts.index')
 
 @push('halaman2css')
-    <link rel="stylesheet" href="css/halaman2.css">
+    <link rel="stylesheet" href="{{ asset('css') }}/halaman2.css">
 @endpush
 
 @section('content')
@@ -12,7 +12,7 @@
                 <div class="berita mb-5">
                     <img src="/bertama_thumb/{{ $data->thumb }}" class="rounded mb-3" alt="...">
                     <div class="detail px-4">
-                        <h3>{{ $data->title }}</h3>
+                        <h3 class="text-wrap">{{ $data->title }}</h3>
                         <p><span class="fw-bold">{{ $data->created_at }}</span> - Author</p>
                         <div class="text">
                             <p>{{ $data->description }}</p>
@@ -49,7 +49,7 @@
                 <div class="more-news d-flex flex-wrap justify-content-evenly align-items-center">
                     <!-- CARD -->
                     @foreach ($moreNews as $berita)
-                        <div class="wrap mb-4 p-3" style="width: 14em">
+                        <a class="wrap mb-4 p-3" style="width: 14em">
                             <div class="image-wrap rounded"
                                 style="background-image: url('/bertama_thumb/{{ $berita->thumb }}')">
                             </div>
@@ -58,7 +58,7 @@
                                 <h5 class="card-title" style="height: 2.5em; overflow: hidden">{{ $berita->title }}</h5>
                                 <p class="card-text" style="height: 8em; overflow: hidden">{{ $berita->description }}</p>
                             </div>
-                        </div>
+                        </a>
                     @endforeach
                     <div class="wrap mb-4 p-3" style="width: 14em">
                         <div class="image-wrap rounded"
@@ -160,15 +160,15 @@
                 <h3 class="">More News</h3>
                 <!-- CARD -->
                 @foreach ($moreNews as $berita)
-                    <div class="wrap d-flex my-5" style="height: 6.5em; overflow: hidden">
+                    <a class="wrap d-flex my-5" style="height: 6.5em; overflow: hidden">
                         <div class="image-wrap rounded"
                             style="background-image: url('/bertama_thumb/{{ $berita->thumb }}')">
                         </div>
                         <div class="card-body ps-2" style="width: 3em">
-                            <h5 class="card-title" style="height: 2.5em; overflow: hidden">{{ $berita->title }}</h5>
+                            <h5 class="card-title" style="max-height: 2.5em; overflow: hidden">{{ $berita->title }}</h5>
                             <p class="card-text">{{ $berita->description }}</p>
                         </div>
-                    </div>
+                    </a>
                 @endforeach
                 <div class="wrap d-flex my-5" style="height: 6.5em; overflow: hidden">
                     <div class="image-wrap rounded"

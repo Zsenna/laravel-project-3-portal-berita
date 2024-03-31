@@ -89,7 +89,7 @@
                                 <div class="card-body">
                                     <p class="card-text-date"><i class="bi bi-clock">
                                         </i>08.22.2023</p>
-                                    <p class="card-text desc-right">Thailand makes it mandatory for</p>
+                                    <p class="card-text desc-right">Thailand makes it mandatory for tourists to stay</p>
                                 </div>
                             </a>
                         </div>
@@ -187,11 +187,10 @@
                                             </i>{{ $berita->created_at }}</p>
                                         <h5 class="card-title" style="height: 2.8em; overflow: hidden">{{ $berita->title }}
                                         </h5>
-                                        <p class="card-text" style="height: 5em; overflow: hidden"><i class="bi bi-clock">
-                                            </i>{{ $berita->description }}</p>
+                                        <p class="card-text" style="height: 5em; overflow: hidden">{{ $berita->description }}</p>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         @endforeach
                         <div class="swiper-slide">
                             <div class="item rounded card container-lg p-0 shadow">
@@ -201,78 +200,80 @@
                                 <div class="card-body">
                                     <p class="info"><span class="cat rounded">Tech</span><i class="bi bi-clock">
                                         </i>08.12.2022</p>
-                                    <h5 class="card-title trend-tittle">Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
-                                    <p class="card-text trend-desc">Some quick example text to build on the card title and make up the
-                                        bulk
-                                        of the card's content.</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="" class="swiper-slide">
-                            <div class="item rounded card container-lg p-0 shadow">
-                                <div class="image-wrap rounded">
-                                    <img class="img-fluid rounded"
-                                        src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
-                                </div>
-                                <div class="card-body">
-                                    <p class="info"><span class="cat rounded">Tech</span><i class="bi bi-clock">
-                                        </i>08.12.2022</p>
-                                    <h5 class="card-title" style="height: 2.8em; overflow: hidden">Lorem ipsum dolor sit
-                                        amet consectetur adipisicing.</h5>
-                                    <p class="card-text" style="height: 5em; overflow: hidden">Some quick example text to
-                                        build on the card title and make up the
-                                        bulk
-                                        of the card's content.</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="" class="swiper-slide">
-                            <div class="item rounded card container-lg p-0 shadow">
-                                <div class="image-wrap rounded">
-                                    <img class="img-fluid rounded"
-                                        src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
-                                </div>
-                                <div class="card-body">
-                                    <p class="info"><span class="cat rounded">Tech</span><i class="bi bi-clock">
-                                        </i>08.12.2022</p>
-                                    <h5 class="card-title" style="height: 2.8em; overflow: hidden">Lorem ipsum dolor sit
-                                        amet consectetur adipisicing.</h5>
-                                    <p class="card-text" style="height: 5em; overflow: hidden">Some quick example text to
-                                        build on the card title and make up the
-                                        bulk
-                                        of the card's content.</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="" class="swiper-slide">
-                            <div class="item rounded card container-lg p-0 shadow">
-                                <div class="image-wrap rounded">
-                                    <img class="img-fluid rounded"
-                                        src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
-                                </div>
-                                <div class="card-body">
-                                    <p class="info"><span class="cat rounded">Tech</span><i class="bi bi-clock">
-                                        </i>08.12.2022</p>
-                                    <h5 class="card-title" style="height: 2.8em; overflow: hidden">Lorem ipsum dolor sit
-                                        amet consectetur adipisicing.</h5>
-                                    <p class="card-text" style="height: 5em; overflow: hidden">Some quick example text to
-                                        build on the card title and make up the
-                                        bulk
-                                        of the card's content.</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="" class="swiper-slide">
-                            <div class="item rounded card container-lg p-0 shadow">
-                                <div class="image-wrap rounded">
-                                    <img class="img-fluid rounded"
-                                        src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
-                                </div>
-                                <div class="card-body">
-                                    <p class="info"><span class="cat rounded">Tech</span><i class="bi bi-clock">
-                                        </i>08.12.2022</p>
                                     <h5 class="card-title" style="height: 2.8em; overflow: hidden">Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
-                                    <p class="card-text desc-right" style="height: 5em; overflow: hidden">Some quick example text to build on the card title and make up the
+                                    <p class="card-text" style="height: 5em; overflow: hidden">Some quick example text to build on the card title and make up the
+                                        bulk
+                                        of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="" class="swiper-slide">
+                            <div class="item rounded card container-lg p-0 shadow">
+                                <div class="image-wrap rounded">
+                                    <img class="img-fluid rounded"
+                                        src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <p class="info"><span class="cat rounded">Tech</span><i class="bi bi-clock">
+                                        </i>08.12.2022</p>
+                                    <h5 class="card-title" style="height: 2.8em; overflow: hidden">Lorem ipsum dolor sit
+                                        amet consectetur adipisicing.</h5>
+                                    <p class="card-text" style="height: 5em; overflow: hidden">Some quick example text to
+                                        build on the card title and make up the
+                                        bulk
+                                        of the card's content.</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="swiper-slide">
+                            <div class="item rounded card container-lg p-0 shadow">
+                                <div class="image-wrap rounded">
+                                    <img class="img-fluid rounded"
+                                        src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <p class="info"><span class="cat rounded">Tech</span><i class="bi bi-clock">
+                                        </i>08.12.2022</p>
+                                    <h5 class="card-title" style="height: 2.8em; overflow: hidden">Lorem ipsum dolor sit
+                                        amet consectetur adipisicing.</h5>
+                                    <p class="card-text" style="height: 5em; overflow: hidden">Some quick example text to
+                                        build on the card title and make up the
+                                        bulk
+                                        of the card's content.</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="swiper-slide">
+                            <div class="item rounded card container-lg p-0 shadow">
+                                <div class="image-wrap rounded">
+                                    <img class="img-fluid rounded"
+                                        src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <p class="info"><span class="cat rounded">Tech</span><i class="bi bi-clock">
+                                        </i>08.12.2022</p>
+                                    <h5 class="card-title" style="height: 2.8em; overflow: hidden">Lorem ipsum dolor sit
+                                        amet consectetur adipisicing.</h5>
+                                    <p class="card-text" style="height: 5em; overflow: hidden">Some quick example text to
+                                        build on the card title and make up the
+                                        bulk
+                                        of the card's content.</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="swiper-slide">
+                            <div class="item rounded card container-lg p-0 shadow">
+                                <div class="image-wrap rounded">
+                                    <img class="img-fluid rounded"
+                                        src="https://cdn1-production-images-kly.akamaized.net/-QPz19toWHRasRoqlGcvy5extnk=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/802294/original/062926800_1422423099-oasis-1.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <p class="info"><span class="cat rounded">Tech</span><i class="bi bi-clock">
+                                        </i>08.12.2022</p>
+                                    <h5 class="card-title" style="height: 2.8em; overflow: hidden">Lorem ipsum dolor sit
+                                        amet consectetur adipisicing.</h5>
+                                    <p class="card-text desc-right" style="height: 5em; overflow: hidden">Some quick
+                                        example text to build on the card title and make up the
                                         bulk
                                         of the card's content.</p>
                                 </div>
@@ -407,35 +408,15 @@
                     </div>
                 </div>
                 <div class="wrap position-relative ps-4 row">
-                    <div class="left col-12 col-md-4 col-sm-6 row" id="latescol">
+                    <div class="left col-12 col-md-4 col-sm-6 row">
                         @foreach ($data3 as $berita)
                             <a href="/detail/{{ $berita->id }}"
-                                class="item position-relative rounded mb-3 shadow col-4 col-sm-12"
+                                class="item position-relative rounded mb-3 shadow col-4 col-sm-12 px-3"
                                 style="background-image: url('/bertama_thumb/{{ $berita->thumb }}');">
                                 <p class="date"><i class="bi bi-clock"> </i>{{ $berita->created_at }}</p>
-                                <h5 class="title">{{ $berita->title }}</h5>
+                                <h5 class="title" style="height: 1.5em; width: 85%; overflow: hidden">{{ $berita->title }}</h5>
                             </a>
                         @endforeach
-                        <a href="" class="item position-relative rounded mb-3 shadow col-4 col-sm-12"
-                            style="background-image: url('https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/band-oasis.jpg');">
-                            <p class="date"><i class="bi bi-clock"> </i>74 - Olarius - 3339</p>
-                            <h5 class="title">She Sets Up High</h5>
-                        </a>
-                        <a href="" class="item position-relative rounded mb-3 shadow col-4 col-sm-12"
-                            style="background-image: url('https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/band-oasis.jpg');">
-                            <p class="date"><i class="bi bi-clock"> </i>74 - Olarius - 3339</p>
-                            <h5 class="title">She Sets Up High</h5>
-                        </a>
-                        <a href="" class="item position-relative rounded mb-3 shadow col-4 col-sm-12"
-                            style="background-image: url('https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/band-oasis.jpg');">
-                            <p class="date"><i class="bi bi-clock"> </i>74 - Olarius - 3339</p>
-                            <h5 class="title">She Sets Up High</h5>
-                        </a>
-                        <a href="" class="item position-relative rounded mb-3 shadow col-4 col-sm-12"
-                            style="background-image: url('https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/band-oasis.jpg');">
-                            <p class="date"><i class="bi bi-clock"> </i>74 - Olarius - 3339</p>
-                            <h5 class="title">She Sets Up High</h5>
-                        </a>
                     </div>
                     <div class="right position-relative col-12 col-md-8 col-sm-6 swiper mySwiper2 row ps-3">
                         <div class="swiper-wrapper p-0">
@@ -448,7 +429,7 @@
                                         </div>
                                         <div class="detail ps-2" style="width: 70%; font-size: smaller;">
                                             <p class="m-0"><i class="bi bi-clock"> </i>{{ $berita->created_at }}</p>
-                                            <p class="fw-bold m-0 tittle-right">{{ $berita->title }}</p>
+                                            <p class="fw-bold m-0 tittle-right text-wrap" style="height: 3em; overflow: hidden;">{{ $berita->title }}</p>
                                         </div>
                                     </a>
                                 @endforeach

@@ -7,6 +7,11 @@
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 nav .top {
     background-color: #f5a623;
     color: white;
